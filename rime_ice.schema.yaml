@@ -140,6 +140,8 @@ translator:
     - xform/([nl])ue/$1ve/      # 显示为 nve lve
   initial_quality: 1.2          # 拼音的权重应该比英文大
 
+  # 错误率太高
+  enable_correction: true
 
 # 次翻译器，英文
 melt_eng:

@@ -223,3 +223,9 @@ main	main
 Amazon	amazon
 NASA	nasa
 gone	gone
+
+
+TensorFlow	tensor
+TensorFlow	tensorflow
+PyTorch	pytorch
+PyTorch	torch

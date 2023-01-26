@@ -5,10 +5,14 @@
 name: rime_ice
 version: "1"
 import_tables:
-  - cn_dicts/8105    # 字表
-  - cn_dicts/base    # 基础词库
-  - cn_dicts/sogou   # 搜狗流行词，与 main 没有重复
-  - cn_dicts/ext     # 扩展词库，与 main sogou 没有重复
-  - cn_dicts/tencent # 腾讯词向量，与 main sogou ext 没有重复，大词库，部署时间较长。
-  - cn_dicts/others  # 一些杂项
+  - cn_dicts_freq/8105            # 字表
+  - cn_dicts_freq/base            # 基础词库
+  - cn_dicts_freq/sogou           # 搜狗流行词，与 main 没有重复
+  - cn_dicts_freq/ext             # 扩展词库，与 main sogou 没有重复
+  - cn_dicts_freq/tencent         # 腾讯词向量，与 main sogou ext 没有重复，大词库，部署时间较长。
+  - cn_dicts_freq/others          # 一些杂项
+  - ext_dicts/sogou_math          # 搜狗词库-数学
+  - ext_dicts/sogou_chengyusuyu   # 搜狗词库-成语俗语
+  - ext_dicts/sogou_kaifadashen   # 搜狗词库-开发大神
+  - ext_dicts/sogou_ai            # 搜狗词库-人工智能 
 ...
