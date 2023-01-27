@@ -15,4 +15,5 @@ import_tables:
   - ext_dicts/sogou_chengyusuyu   # 搜狗词库-成语俗语
   - ext_dicts/sogou_kaifadashen   # 搜狗词库-开发大神
   - ext_dicts/sogou_ai            # 搜狗词库-人工智能 
+  - ext_dicts/sogou_sijixingzheng # 搜狗词库-四级行政
 ...
