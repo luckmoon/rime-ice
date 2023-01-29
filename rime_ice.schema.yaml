@@ -295,6 +295,7 @@ speller:
     # ian
     - derive/([qtpdjlxbnm])ian$/$1ain/
     # - derive/([qtpdjlxbnm])ian$/$1ina/ # 和「李娜、蒂娜、缉拿」等常用词有冲突
+    - derive/([qtpdjlxbnm])ian$/$1ina/ # 和「李娜、蒂娜、缉拿」等常用词有冲突
     # in
     - derive/([qypjlxbnm])in$/$1ni/
     # iang
@@ -308,6 +309,7 @@ speller:
     # uan
     - derive/([qrtysdghjklzxcn])uan$/$1aun/
     # - derive/([qrtysdghjklzxcn])uan$/$1una/ # 和「去哪、露娜」等常用词有冲突
+    - derive/([qrtysdghjklzxcn])uan$/$1una/ # 和「去哪、露娜」等常用词有冲突
     # un
     - derive/([qrtysdghjklzxc])un$/$1nu/
     # ue
