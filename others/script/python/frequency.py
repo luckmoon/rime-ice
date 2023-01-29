@@ -1,15 +1,14 @@
-from functools import partial, reduce
+import getpass
 import glob
 import json
 import os
+from collections import Counter
+from concurrent.futures import ProcessPoolExecutor
+from functools import reduce
 
-import yaml
 import jieba
 from pyhanlp import HanLP
 from tqdm import tqdm
-from collections import Counter
-import getpass
-from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 # warm up
 jieba.lcut("1234")
@@ -17,11 +16,16 @@ jieba.lcut("1234")
 USERNAME = getpass.getuser()
 # tok = hanlp.load(hanlp.pretrained.tok.COARSE_ELECTRA_SMALL_ZH)
 HanLP.Config.ShowTermNature = False
-yaml_files = glob.glob("../../../cn_dicts/*.yaml")
 # yaml_files = ["../../../cn_dicts/ext.dict.yaml"]
+yaml_files = glob.glob("../../../cn_dicts/*.yaml")
+BASE_CORPUS_DIR = f"/Users/{USERNAME}/Downloads/rime_corpus"
 
 
-def load_all_token():
+def load_cn_tokens():
+    """
+    加载cn_dicts下的词表
+    :return:
+    """
     all_tokens = set()
     for yaml_file in yaml_files:
         flag = False
@@ -53,6 +57,12 @@ def load_all_token():
 
 
 def process_single_wiki(in_file, token_set):
+    """
+    统计wiki_zh中的词频
+    :param in_file:
+    :param token_set:
+    :return:
+    """
     counter = Counter()
     with open(in_file, "r") as fin:
         for line in fin.readlines():
@@ -66,9 +76,10 @@ def process_single_wiki(in_file, token_set):
             counter.update(tokens)
     return counter
 
+
 def process_weibo(token_set):
     counter = Counter()
-    in_files = glob.glob(f"/Users/{USERNAME}/Downloads/raw_chat_corpus/weibo-400w/*")
+    in_files = glob.glob(f"{BASE_CORPUS_DIR}/raw_chat_corpus/weibo-400w/*")
     for in_file in in_files:
         print(in_file)
         with open(in_file, "r") as fin:
@@ -82,7 +93,7 @@ def process_weibo(token_set):
 
 def process_douban(token_set):
     counter = Counter()
-    in_files = glob.glob(f"/Users/{USERNAME}/Downloads/raw_chat_corpus/douban-multiturn-100w/*")
+    in_files = glob.glob(f"{BASE_CORPUS_DIR}/raw_chat_corpus/douban-multiturn-100w/*")
     for in_file in in_files:
         print(in_file)
         with open(in_file, "r") as fin:
@@ -96,7 +107,7 @@ def process_douban(token_set):
 
 def process_tieba(token_set):
     counter = Counter()
-    in_files = glob.glob(f"/Users/{USERNAME}/Downloads/raw_chat_corpus/tieba-305w/*")
+    in_files = glob.glob(f"{BASE_CORPUS_DIR}/raw_chat_corpus/tieba-305w/*")
     for in_file in in_files:
         print(in_file)
         with open(in_file, "r") as fin:
@@ -109,7 +120,13 @@ def process_tieba(token_set):
 
 
 def process_wiki(counter, token_set):
-    in_files = glob.glob(f"/Users/{USERNAME}/Downloads/wiki_zh/*/*")
+    """
+    dropped
+    :param counter:
+    :param token_set:
+    :return:
+    """
+    in_files = glob.glob(f"{BASE_CORPUS_DIR}/wiki_zh/*/*")
     for in_file in tqdm(in_files):
         with open(in_file, "r") as fin:
             for line in fin.readlines():
@@ -123,6 +140,11 @@ def process_wiki(counter, token_set):
 
 
 def dump_new_freq(counter):
+    """
+    将基于自己的语料统计的词频保存到cn_dicts_freq中
+    :param counter:
+    :return:
+    """
     for yaml_file in yaml_files:
         filename = os.path.basename(yaml_file)
         out_file = f"../../../cn_dicts_freq/{filename}"
@@ -148,7 +170,7 @@ def dump_new_freq(counter):
                         dump_line = f"{token}\n"
                     else:
                         print("WARNING:", line)
-                        dump_line = line + "\n"
+                        dump_line = f"{line}\n"
 
                 if line == "...":
                     flag = True
@@ -157,7 +179,7 @@ def dump_new_freq(counter):
 
 
 def main():
-    token_set = load_all_token()
+    token_set = load_cn_tokens()
     counter = Counter()
     process_wiki(counter, token_set)
     print(counter.most_common(100))
@@ -165,7 +187,7 @@ def main():
 
 
 def main2():
-    token_set = load_all_token()
+    token_set = load_cn_tokens()
     counter = Counter()
 
     in_files = glob.glob(f"/Users/{USERNAME}/Downloads/wiki_zh/*/*")
@@ -178,7 +200,7 @@ def main2():
                 future.add_done_callback(lambda p: progress.update())
                 futures.append(future)
             result = [x.result() for x in futures]
-    counter = reduce(lambda x, y: x+y, result)
+    counter = reduce(lambda x, y: x + y, result)
 
     weibo_counter = process_weibo(token_set)
     counter = counter + weibo_counter

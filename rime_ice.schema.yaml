@@ -141,7 +141,7 @@ translator:
   initial_quality: 1.2          # 拼音的权重应该比英文大
 
   # 错误率太高
-  enable_correction: true
+  # enable_correction: true
 
 # 次翻译器，英文
 melt_eng:
