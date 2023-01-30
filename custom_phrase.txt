@@ -229,3 +229,5 @@ TensorFlow	tensor
 TensorFlow	tensorflow
 PyTorch	pytorch
 PyTorch	torch
+Trime	trime
+FIXME	fixme
