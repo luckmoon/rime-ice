@@ -19,7 +19,7 @@ HanLP.Config.ShowTermNature = False
 # yaml_files = ["../../../cn_dicts/ext.dict.yaml"]
 yaml_files = glob.glob("../../../cn_dicts/*.yaml")
 BASE_CORPUS_DIR = f"/Users/{USERNAME}/Downloads/rime_corpus"
-
+print(BASE_CORPUS_DIR)
 
 def load_cn_tokens():
     """
@@ -190,7 +190,7 @@ def main2():
     token_set = load_cn_tokens()
     counter = Counter()
 
-    in_files = glob.glob(f"/Users/{USERNAME}/Downloads/wiki_zh/*/*")
+    in_files = glob.glob(f"{BASE_CORPUS_DIR}/wiki_zh/*/*")
     with ProcessPoolExecutor(max_workers=4) as executor:
         with tqdm(total=len(in_files)) as progress:
             futures = []
