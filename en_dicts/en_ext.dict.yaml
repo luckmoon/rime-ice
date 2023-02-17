@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2023-02-01"
+version: "2023-02-14"
 sort: by_weight
 ...
 # 一些杂项
@@ -1888,3 +1888,13 @@ LibreWolf	LibreWolf
 miscarry	miscarry
 WebRTC	WebRTC
 WebDAV	WebDAV
+SwiftUI	SwiftUI
+watermarking	watermarking
+jellyfish	jellyfish
+Astro	Astro
+SigmaOS	SigmaOS
+switcher	switcher
+fuckity	fuckity
+fo	fo
+NIh	NIh
+layouts	layouts

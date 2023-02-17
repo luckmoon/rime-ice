@@ -9,6 +9,7 @@
 - 简体 | 全拼 | 双拼
 - 主要功能
     -   [melt_eng](https://github.com/tumuyan/rime-melt) 英文输入
+    -   [优化英文输入体验](https://dvel.me/posts/make-rime-en-better/)
     -   [两分输入法](http://cheonhyeong.com/Simplified/download.html) 拼字
     -   简繁切换
     -   日期、时间、星期
@@ -56,13 +57,49 @@
 
 ## 使用说明
 
-备份后删除配置目录下原有的配置文件，再将仓库所有文件复制粘贴进去就好了。
+建议备份原先配置，清空配置目录。
 
-更新词库：词库每个月都会更新几次，更新时只需要将下面 3 个文件夹覆盖过去并重新部署即可。
+### 手动安装
 
-- `cn_dicts` 拼音相关词库
-- `en_dicts` 英文相关词库
-- `opencc` Emoji
+将仓库所有文件复制粘贴进去就好了。
+
+### 东风破 [plum](https://github.com/rime/plum)
+
+所有配方（`others/recipes/*.recipe.yaml`）只是简单地更新覆盖文件，适合更新词库时使用。
+
+后四个配方只是更新词库文件，并不更新 `rime_ice.dict.yaml` 和 `melt_eng.dict.yaml`，因为用户可能会挂载其他词库。
+
+如果更新后部署时报错，可能是增、删、改了文件名，需要检查上面两个文件和词库的对应关系。
+
+安装或更新：全部文件
+
+```
+bash rime-install iDvel/rime-ice:others/recipes/full
+```
+
+安装或更新：所有词库文件（包含下面三个）
+
+```
+bash rime-install iDvel/rime-ice:others/recipes/all_dicts
+```
+
+安装或更新：拼音词库文件
+
+```
+bash rime-install iDvel/rime-ice:others/recipes/cn_dicts
+```
+
+安装或更新：英文词库文件
+
+```
+bash rime-install iDvel/rime-ice:others/recipes/en_dicts
+```
+
+安装或更新：opencc(emoji)
+
+```
+bash rime-install iDvel/rime-ice:others/recipes/opencc
+```
 
 <br>
 
