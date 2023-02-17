@@ -225,6 +225,7 @@ NASA	nasa
 gone	gone
 
 
+google	gogole
 TensorFlow	tensor
 TensorFlow	tensorflow
 PyTorch	pytorch
