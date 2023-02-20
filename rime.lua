@@ -20,12 +20,18 @@ function date_translator(input, seg, env)
         local cand = Candidate("date", seg.start, seg._end, os.date("%Y.%m.%d"), "")
         cand.quality = 100
         yield(cand)
+        local cand = Candidate("date", seg.start, seg._end, os.date("%Y%m%d"), "")
+        cand.quality = 100
+        yield(cand)
         local cand = Candidate("date", seg.start, seg._end, os.date("%Y 年 %m 月 %d 日"), "")
         cand.quality = 100
         yield(cand)
     end
     -- 时间
     if (input == time) then
+        local cand = Candidate("time", seg.start, seg._end, os.date("%Y-%m-%d %H:%M:%S"), "")
+        cand.quality = 100
+        yield(cand)
         local cand = Candidate("time", seg.start, seg._end, os.date("%H:%M"), "")
         cand.quality = 100
         yield(cand)
