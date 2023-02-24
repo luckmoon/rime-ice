@@ -21,6 +21,7 @@ yaml_files = glob.glob("../../../cn_dicts/*.yaml")
 BASE_CORPUS_DIR = f"/Users/{USERNAME}/Downloads/rime_corpus"
 print(BASE_CORPUS_DIR)
 
+
 def load_cn_tokens():
     """
     加载cn_dicts下的词表
@@ -139,6 +140,21 @@ def process_wiki(counter, token_set):
                 counter.update(tokens)
 
 
+def process_wiki_parallel(token_set):
+    in_files = glob.glob(f"{BASE_CORPUS_DIR}/wiki_zh/*/*")
+    with ProcessPoolExecutor(max_workers=4) as executor:
+        with tqdm(total=len(in_files)) as progress:
+            futures = []
+            for in_file in in_files:
+                future = executor.submit(
+                    process_single_wiki, in_file, token_set)
+                future.add_done_callback(lambda p: progress.update())
+                futures.append(future)
+            result = [x.result() for x in futures]
+    counter = reduce(lambda x, y: x + y, result)
+    return counter
+
+
 def dump_new_freq(counter):
     """
     将基于自己的语料统计的词频保存到cn_dicts_freq中
@@ -190,17 +206,8 @@ def main2():
     token_set = load_cn_tokens()
     counter = Counter()
 
-    in_files = glob.glob(f"{BASE_CORPUS_DIR}/wiki_zh/*/*")
-    with ProcessPoolExecutor(max_workers=4) as executor:
-        with tqdm(total=len(in_files)) as progress:
-            futures = []
-            for in_file in in_files:
-                future = executor.submit(
-                    process_single_wiki, in_file, token_set)
-                future.add_done_callback(lambda p: progress.update())
-                futures.append(future)
-            result = [x.result() for x in futures]
-    counter = reduce(lambda x, y: x + y, result)
+    wiki_counter = process_wiki_parallel(token_set)
+    counter = counter + wiki_counter
 
     weibo_counter = process_weibo(token_set)
     counter = counter + weibo_counter

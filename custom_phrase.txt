@@ -234,3 +234,5 @@ Trime	trime
 FIXME	fixme
 bilibili	bili
 bilibili	bilibili
+jupyter	jupyter
+Transformer	transformer
