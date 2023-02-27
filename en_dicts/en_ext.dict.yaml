@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2023-02-14"
+version: "2023-02-20"
 sort: by_weight
 ...
 # 一些杂项
@@ -169,6 +169,7 @@ Liam	Liam
 Noah	Noah
 Jay	Jay
 Enya	Enya
+Juno	Juno
 
 
 # 带权重的系列
@@ -816,7 +817,7 @@ SaneDesk	SaneDesk
 Scrapbook	Scrapbook
 ScreenFloat	ScreenFloat
 ScreenFlow	ScreenFlow
-Scribble	Scribble
+scribble	scribble
 Scrivener	Scrivener
 SDK	SDK
 Software Development Kit	SDK
@@ -1896,5 +1897,21 @@ SigmaOS	SigmaOS
 switcher	switcher
 fuckity	fuckity
 fo	fo
-NIh	NIh
 layouts	layouts
+redirect	redirect
+redirects	redirects
+bash	bash
+Unix shell	Unixshell
+shells	shells
+Zaraz	Zaraz
+waitlist	waitlist
+diffusion	diffusion
+Scribble Diffusion	ScribbleDiffusion
+Lenovo	Lenovo
+Adios	Adios
+EMS	EMS
+Express Mail Service	EMS
+IPFS	IPFS
+InterPlanetary File System	IPFS
+InterPlanetary File System	InterPlanetaryFileSystem
+interplanetary	interplanetary
