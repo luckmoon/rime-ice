@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2023-02-20"
+version: "2023-02-28"
 sort: by_weight
 ...
 # 一些杂项
@@ -15,6 +15,7 @@ sort: by_weight
 <br>	br
 .DS_Store	DSStore
 唵嘛呢叭咪吽	ongmanibeimeihong
+唵嘛呢嘛呢叭咪吽	ongmanimanibeimeihong
 
 
 # 按键
@@ -352,6 +353,7 @@ AfterShokz	AfterShokz
 Aeropex	Aeropex
 Xnip	Xnip
 Workspace	Workspace
+Google Chrome	GoogleChrome
 Google Workspace	GoogleWorkspace
 WYSIWYG	WYSIWYG
 What You See Is What You Get	WYSIWYG
@@ -1915,3 +1917,4 @@ IPFS	IPFS
 InterPlanetary File System	IPFS
 InterPlanetary File System	InterPlanetaryFileSystem
 interplanetary	interplanetary
+Noria	Noria

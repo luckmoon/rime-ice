@@ -58,7 +58,7 @@ ascii_composer:
     Eisu_toggle: clear
 
 
-# punctuator 和 recognizer 由具体方案指定
+# punctuator 和 recognizer 由具体方案指定了
 punctuator:
   full_shape:
   half_shape:
