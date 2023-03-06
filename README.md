@@ -28,7 +28,6 @@
     -   [《同义词词林》](https://forum.freemdict.com/t/topic/1211)
     -   [《新华成语大词典》](https://forum.freemdict.com/t/topic/11407)
     -   [搜狗网络流行新词](https://pinyin.sogou.com/dict/detail/index/4)
-    -   [萌娘百科词库](https://github.com/outloudvi/mw2fcitx)
     -   [腾讯词向量](https://ai.tencent.com/ailab/nlp/en/download.html)
 - 词库修订
     - 校对大量异形词、错别字、错误注音
@@ -46,7 +45,6 @@
 - `8105` 字表。
 - `base` 基础词库。
 - `sogou` 搜狗流行词。
-- `moegirl` 萌娘百科。
 - `ext` 扩展词库，小词库。
 - `tencent` 扩展词库，大词库。
 - Emoji
@@ -119,13 +117,13 @@ bash rime-install iDvel/rime-ice:others/recipes/opencc
 
 呼出方案选单默认为 Control+Shift+grave（grave 是 `` ` `` 反引号，Tab 上面那个）。
 
-小狼毫似乎不支持 Control+Shift 开头的快捷键，可在 `default.custom.yaml` 中修改。
+小狼毫似乎不支持 Control+Shift 开头的快捷键，可在 `default.yaml` 中修改。
 
 ##### Lua 脚本
 
 Lua 中可配置的选项都提取出来了，不需要修改 Lua 文件。
 
-以词定字的快捷键在 `default.custom.yaml` 中设定，限制码长、长词优先、日期时间这些选项在方案文件中设定。
+以词定字的快捷键在 `default.yaml` 中设定，限制码长、长词优先、日期时间这些选项在方案文件中设定。
 
 ##### Shift 切换中英
 
@@ -133,7 +131,7 @@ Lua 中可配置的选项都提取出来了，不需要修改 Lua 文件。
 
 ##### 逗号句号翻页
 
-1. 在 `default.custom.yaml` 中解开句号逗号翻页的注释。
+1. 在 `default.yaml` 中解开句号逗号翻页的注释。
 2. 在 `rime_ice.schema.yaml` 中注释掉 `url_2`。（因为这个选项会覆盖掉句号的行为）
 
 ##### 自定义短语
