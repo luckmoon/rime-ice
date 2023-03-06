@@ -1,0 +1,7 @@
+# Rime default settings
+# encoding: utf-8
+
+patch:
+  # 菜单
+  menu:
+    page_size: 8  # 候选词个数
