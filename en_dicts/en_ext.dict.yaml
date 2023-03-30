@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2023-03-04"
+version: "2023-03-26"
 sort: by_weight
 ...
 # 一些杂项
@@ -174,7 +174,11 @@ Juno	Juno
 Trump	Trump
 Biden	Biden
 Joseph	Joseph
-
+Braun	Braun
+Bayes	Bayes
+Saul	Saul
+Wick	Wick
+#///
 
 # 带权重的系列
 iPhone	iPhone	999
@@ -531,6 +535,7 @@ Node	Node
 Node.js	Nodejs
 Pornhub	Pornhub
 PostgreSQL	PostgreSQL
+Postgres	Postgres
 PowerPoint	PowerPoint
 PPT	PPT
 PowerPoint	ppt
@@ -680,7 +685,6 @@ Forecast	Forecast
 ForkLift	ForkLift
 Frank DeLoupe	FrankDeLoupe
 Geekbench	Geekbench
-gemini	gemini
 Gestimer	Gestimer
 GhostNote	GhostNote
 GhostTile	GhostTile
@@ -1078,6 +1082,8 @@ SWAT	SWAT
 footer	footer
 header	header
 GitHub Copilot	GitHubCopilot
+GitHub Copilot X	GitHubCopilotX
+GitHub Copilot CLI	GitHubCopilotCLI
 Blog	Blog
 iPadOS	iPadOS
 Apple Pencil	ApplePencil
@@ -1205,7 +1211,6 @@ Niconico	Niconico
 TickTick	TickTick
 CHDBits	CHDBits
 M-team	Mteam
-Microsoft Azure	MicrosoftAzure
 Emacs	Emacs
 Vim	Vim
 Wikipedia	Wikipedia
@@ -1242,8 +1247,6 @@ Internet Explorer	InternetExplorer
 Windows Media Player	WindowsMediaPlayer
 Media Player	MediaPlayer
 Windows Media Player	MediaPlayer
-Microsoft Azure 	MicrosoftAzure
-Microsoft Azure 	Azure
 Microsoft Edge	MicrosoftEdge
 Visual Studio Code	VisualStudioCode
 Visual Studio Code	VSCode
@@ -1670,7 +1673,6 @@ C++	cpp
 Python	Python
 Perl	Perl
 Swift	Swift
-nginx	nginx
 MIT	MIT
 Massachusetts Institute of Technology	MIT
 Massachusetts Institute of Technology	MassachusettsInstituteofTechnology
@@ -1712,6 +1714,8 @@ DirectX	DirectX
 Kinect	Kinect
 Azure	Azure
 azure	azure
+Microsoft Azure 	Azure
+Microsoft Azure	MicrosoftAzure
 Cloudflare	Cloudflare
 Buddhism	Buddhism
 Catholic	Catholic
@@ -1833,7 +1837,12 @@ Quality of Service	QoS
 Quality of Service	QualityofService
 DoH	DoH
 DNS over HTTPS	DoH
+DNS over HTTPS/3	DoH
 DNS over HTTPS	DNSoverHTTPS
+DNS over HTTPS/3	DNSoverHTTPS
+DoQ	DoQ
+DNS over QUIC	DoQ
+DNS over QUIC	DNSoverQUIC
 HK	HK
 Hong Kong	HK
 Hong Kong	HongKong
@@ -1939,3 +1948,65 @@ roadmap	roadmap
 Coinbase Wallet	CoinbaseWallet
 MetaMask	MetaMask
 favicon	favicon
+Discord	Discord
+New Bing	NewBing
+Notion AI	NotionAI
+memos	memos
+flomo	flomo
+arabica	Arabica
+robusta	robusta
+HanLP	HanLP
+Arch Linux	ArchLinux
+AlmaLinux	AlmaLinux
+Fedora CoreOS	FedoraCoreOS
+CoreOS	CoreOS
+OpenBSD	OpenBSD
+Rocky Linux	RockyLinux
+Vultr	Vultr
+GoFrame	GoFrame
+ORM	ORM
+Object Relational Mapping	ORM
+Gin	Gin
+Echo	Echo
+Iris	Iris
+iris	iris
+burnt	burnt
+KPI	KPI
+Key Performance Indicators	KPI
+mutex	mutex
+TIOBE	TIOBE
+DigitalOcean	DigitalOcean
+Google Authenticator	GoogleAuthenticator
+Authenticator	Authenticator
+authenticator	authenticator
+Depay	Depay
+codeium	codeium
+OpenCat	OpenCat
+AWS	AWS
+Amazon Web Services	AWS
+Amazon Web Services	AmazonWebServices
+Gemini	Gemini
+gemini	gemini
+Orion	Orion
+Virgo	Virgo
+Aries	Aries
+Taurus	Taurus
+Cancer	Cancer
+Libra	Libra
+Scorpio	Scorpio
+Sagittarius	Sagittarius
+Capricorn	Capricorn
+Aquarius	Aquarius
+Pisces	Pisces
+tailwind	tailwind
+Fcitx	Fcitx
+openSUSE	openSUSE
+defer	defer
+FOMO	FOMO
+Fear of Missing Out	FOMO
+rune	rune
+wick	wick
+meow	meow
+woof	woof
+Bromite	Bromite
+bromite	bromite
