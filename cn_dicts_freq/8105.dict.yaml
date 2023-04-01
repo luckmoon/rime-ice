@@ -30,7 +30,7 @@
 # 降低一些几乎只在一个固定词汇中使用的读音的权重，不让其参与注音，在 base 中手动注音。
 ---
 name: 8105
-version: "2023-01-03"
+version: "2023-03-29"
 sort: by_weight
 ...
 ### 按需启用
@@ -1197,8 +1197,8 @@ sort: by_weight
 𣗋	dang	8
 𬍡	dang	1
 到	dao	1007187
-道	dao	119632
 倒	dao	65559
+道	dao	119632
 刀	dao	26916
 导	dao	2679
 岛	dao	38471
@@ -4517,6 +4517,7 @@ sort: by_weight
 廿	nian	413
 辇	nian	441
 鲇	nian	126
+鲶	nian	5241
 埝	nian	91
 粘	nian	9698
 娘	niang	16517
@@ -5643,6 +5644,7 @@ sort: by_weight
 晟	sheng	359
 甥	sheng	98
 昇	sheng	155
+乘	sheng	9557
 嵊	sheng	64
 眚	sheng	18
 陞	sheng	1
@@ -6921,9 +6923,9 @@ sort: by_weight
 偰	xie	81
 𤫉	xie	8
 𬹼	xie	1
+新	xin	293518
 心	xin	111829
 信	xin	62223
-新	xin	293518
 欣	xin	2152
 辛	xin	3475
 馨	xin	448
@@ -8025,6 +8027,7 @@ sort: by_weight
 占	zhan	63053
 斩	zhan	4551
 沾	zhan	5420
+蘸	zhan	1326
 绽	zhan	39
 粘	zhan	9698
 栈	zhan	499
@@ -8035,7 +8038,6 @@ sort: by_weight
 瞻	zhan	309
 辗	zhan	60
 毡	zhan	227
-蘸	zhan	1326
 旃	zhan	208
 谵	zhan	1
 搌	zhan	2
