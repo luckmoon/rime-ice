@@ -7,7 +7,7 @@ from concurrent.futures import ProcessPoolExecutor
 from functools import reduce
 
 import jieba
-from pyhanlp import HanLP
+# from pyhanlp import HanLP
 from tqdm import tqdm
 
 # warm up
@@ -15,7 +15,7 @@ jieba.lcut("1234")
 
 USERNAME = getpass.getuser()
 # tok = hanlp.load(hanlp.pretrained.tok.COARSE_ELECTRA_SMALL_ZH)
-HanLP.Config.ShowTermNature = False
+# HanLP.Config.ShowTermNature = False
 # yaml_files = ["../../../cn_dicts/ext.dict.yaml"]
 yaml_files = glob.glob("../../../cn_dicts/*.yaml")
 BASE_CORPUS_DIR = f"/Users/{USERNAME}/Downloads/rime_corpus"

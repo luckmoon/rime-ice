@@ -30,7 +30,7 @@
 # 降低一些几乎只在一个固定词汇中使用的读音的权重，不让其参与注音，在 base 中手动注音。
 ---
 name: 8105
-version: "2023-03-29"
+version: "2023-04-14"
 sort: by_weight
 ...
 ### 按需启用
@@ -41,8 +41,13 @@ sort: by_weight
 # 贲	fei	1
 
 
-### 扩展，不在《通用规范汉字表》的字，注释掉的这几行已经加入到下面并调整到合适的权重了
+### 扩展，不在《通用规范汉字表》的字:
 𰻝	biang	1
+嬢	niang	76
+薙	ti	75
+菈	la	528
+卻	que	908
+# 注释掉的这几行已经加入到下面并调整到合适的权重了
 # 〇	1
 # 囧	1
 # 屌	1
@@ -106,9 +111,9 @@ sort: by_weight
 砹	ai	210
 锿	ai	188
 嗌	ai	86
+按	an	65174
 安	an	31256
 暗	an	7276
-按	an	65174
 案	an	14213
 岸	an	3108
 俺	an	30009
@@ -1155,10 +1160,10 @@ sort: by_weight
 蛋	dan	24961
 胆	dan	2167
 旦	dan	463
-石	dan	14921
 诞	dan	408
 耽	dan	251
 惮	dan	34
+石	dan	14921
 眈	dan	3
 澹	dan	461
 掸	dan	186
@@ -1596,10 +1601,10 @@ sort: by_weight
 墦	fan	7
 𫔍	fan	98
 𬸪	fan	1
-方	fang	22775
 放	fang	111740
 房	fang	27179
 防	fang	11437
+方	fang	22775
 仿	fang	3238
 芳	fang	1008
 访	fang	1660
@@ -2599,17 +2604,17 @@ sort: by_weight
 记	ji	33946
 季	ji	28882
 击	ji	4066
+急	ji	32127
 奇	ji	12981
 系	ji	59257
 即	ji	118425
-急	ji	32127
+既	ji	21869
 极	ji	21055
 计	ji	6098
 激	ji	1113
 继	ji	10919
 基	ji	17118
 己	ji	5728
-既	ji	21869
 际	ji	591
 纪	ji	2652
 技	ji	2399
@@ -2763,6 +2768,7 @@ sort: by_weight
 剑	jian	13458
 件	jian	74056
 建	jian	17795
+键	jian	5735
 渐	jian	2622
 简	jian	4390
 坚	jian	1631
@@ -2774,7 +2780,6 @@ sort: by_weight
 健	jian	2571
 检	jian	1321
 减	jian	16078
-键	jian	5735
 奸	jian	1163
 艰	jian	733
 兼	jian	35191
@@ -3297,8 +3302,8 @@ sort: by_weight
 闶	kang	9
 𡐓	kang	3
 𩾌	kang	1089
-考	kao	60690
 靠	kao	113750
+考	kao	60690
 烤	kao	8319
 铐	kao	142
 拷	kao	608
@@ -3758,8 +3763,8 @@ sort: by_weight
 俩	liang	66000
 𫟅	liang	7
 𬜯	liang	1
-料	liao	8623
 聊	liao	44491
+料	liao	8623
 了	liao	8587735
 疗	liao	684
 辽	liao	4742
@@ -3836,8 +3841,8 @@ sort: by_weight
 箖	lin	3
 𬭸	lin	2
 𬴊	lin	2
-灵	ling	8960
 令	ling	49404
+灵	ling	8960
 领	ling	10701
 另	ling	106240
 凌	ling	1057
@@ -5369,8 +5374,8 @@ sort: by_weight
 蝾	rong	3
 狨	rong	286
 瑢	rong	15
-柔	rou	1920
 肉	rou	45605
+柔	rou	1920
 揉	rou	3756
 蹂	rou	30
 糅	rou	8
@@ -6128,8 +6133,8 @@ sort: by_weight
 铽	te	149
 忒	te	8383
 忒	tei	8383
-腾	teng	1332
 疼	teng	40412
+腾	teng	1332
 藤	teng	3355
 滕	teng	2611
 誊	teng	46
@@ -6137,9 +6142,9 @@ sort: by_weight
 縢	teng	20
 熥	teng	32
 䲢	teng	248
-体	ti	17630
 提	ti	36846
 题	ti	16761
+体	ti	17630
 替	ti	19678
 踢	ti	106371
 梯	ti	780
