@@ -1,9 +1,11 @@
 # Rime table
 # coding: utf-8
-#@/db_name  custom_phrase.txt
+#@/db_name	custom_phrase.txt
 #@/db_type	tabledb
 #
 # 自定义文本
+# 适用于全拼，在方案的 custom_phrase/user_dict 指定；
+# 双拼默认为 custom_phrase_double.txt 需要手动创建
 #
 # 以 Tab 分割：汉字<Tab>编码<Tab>权重
 #
@@ -16,7 +18,7 @@
 # 比如 Amazon 被纠错为「a ma zong 阿妈粽」，
 # 期望的 Amazon 跑到第二个候选项了，所以这里给它固定死喽。
 #
-# version: "2023-03-04"
+# version: "2023-04-08"
 #
 # 此行之后不能写注释
 
@@ -222,6 +224,7 @@ Amazon	amazon
 NASA	nasa
 gone	gone
 Go程	gocheng
+code	code
 
 
 google	gogole

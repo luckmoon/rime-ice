@@ -6,8 +6,8 @@ name: rime_ice
 version: "2023-03-04"
 import_tables:
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
-  # - cn_dicts/my_dict
   - cn_dicts_freq/8105            # 字表
+  # - cn_dicts_freq/41448  # 大字表（按需启用）
   - cn_dicts_freq/base            # 基础词库
   - cn_dicts_freq/sogou           # 搜狗流行词
   - cn_dicts_freq/ext             # 扩展词库
@@ -20,4 +20,5 @@ import_tables:
   - ext_dicts/sogou_sijixingzheng # 搜狗词库-四级行政
   - ext_dicts/baidu_shici         # 百度词库-诗词
   - ext_dicts/baidu_personal      # 百度词库-个人词库
+  # - cn_dicts/mydict
 ...
