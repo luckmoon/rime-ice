@@ -9,7 +9,8 @@ local formats = {
     },
     time = {
         '%H:%M',
-        '%H:%M:%S'
+        '%H:%M:%S',
+        '%Y-%m-%d %H:%M:%S'
     },
     datetime = {
         '%Y-%m-%dT%H:%M:%S+08:00',
