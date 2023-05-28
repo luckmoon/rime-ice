@@ -5,3 +5,8 @@ patch:
   # 菜单
   menu:
     page_size: 8  # 候选词个数
+
+  ascii_composer:
+    switch_key:
+      Caps_Lock: noop
+      Shift_L: noop
