@@ -7,14 +7,14 @@
 #
 ---
 name: en_ext
-version: "2023-05-24"
+version: "2023-06-06"
 sort: by_weight
 ...
 # 一些杂项
 &nbsp;	nbsp
 <br>	br
 .DS_Store	DSStore
-README.md	READMEmd
+README.md	README.md
 唵嘛呢叭咪吽	ongmanibeimeihong
 唵嘛呢嘛呢叭咪吽	ongmanimanibeimeihong
 
@@ -128,7 +128,6 @@ iPhone 14	iPhone	4
 iPhone 14 Plus	iPhone	3
 iPhone 14 Pro	iPhone	2
 iPhone 14 Pro Max	iPhone	1
-iPhone SE	iPhoneSE
 
 Mac OS X	MacOSX	999
 Mac OS X Cheetah	MacOSX	1
@@ -166,6 +165,7 @@ macOS Catalina	macOS	4
 macOS Big Sur	macOS	5
 macOS Monterey	macOS	6
 macOS Ventura	macOS	7
+macOS Sonoma	macOS	8
 macOS Sierra	macOSSierra
 macOS High Sierra	macOSHighSierra
 macOS Mojave	macOSMojave
@@ -173,6 +173,7 @@ macOS Catalina	macOSCatalina
 macOS Big Sur	macOSBigSur
 macOS Monterey	macOSMonterey
 macOS Ventura	macOSVentura
+macOS Sonoma	macOSSonoma
 Sierra	Sierra
 High Sierra	HighSierra
 Mojave	Mojave
@@ -180,6 +181,7 @@ Catalina	Catalina
 Big Sur	BigSur
 Monterey	Monterey
 Ventura	Ventura
+Sonoma	Sonoma
 
 Windows	Windows	999
 Windows 95	Windows	1
@@ -194,12 +196,56 @@ Windows 8	Windows	8
 Windows 10	Windows	10
 Windows 11	Windows	11
 
-ERC-20	ERC
-ERC-721	ERC
-ERC-1155	ERC
-
 
 # +_+
+ERC-20	ERC-20
+ERC-721	ERC-721
+ERC-1155	ERC-1155
+iPhone 3G	iPhone3G
+iPhone 3GS	iPhone3GS
+iPhone 4	iPhone4
+iPhone 4S	iPhone4S
+iPhone 5	iPhone5
+iPhone 5C	iPhone5C
+iPhone 5S	iPhone5S
+iPhone 6	iPhone6
+iPhone 6 Plus	iPhone6Plus
+iPhone 6S	iPhone6S
+iPhone 6S Plus	iPhone6SPlus
+iPhone SE
+iPhone 7	iPhone7
+iPhone 7 Plus	iPhone7Plus
+iPhone 8	iPhone8
+iPhone 8 Plus	iPhone8Plus
+iPhone X	iPhoneX
+iPhone XR	iPhoneXR
+iPhone XS	iPhoneXS
+iPhone XS Max	iPhoneXSMax
+iPhone 11	iPhone11
+iPhone 11 Pro	iPhone11Pro
+iPhone 11 Pro Max	iPhone11ProMax
+iPhone 12	iPhone12
+iPhone 12 Mini	iPhone12Mini
+iPhone 12 Pro	iPhone12Pro
+iPhone 12 Pro Max	iPhone12ProMax
+iPhone 13	iPhone13
+iPhone 13 Mini	iPhone13Mini
+iPhone 13 Pro	iPhone13Pro
+iPhone 13 Pro Max	iPhone13ProMax
+iPhone 14	iPhone14
+iPhone 14 Plus	iPhone14Plus
+iPhone 14 Pro	iPhone14Pro
+iPhone 14 Pro Max	iPhone14ProMax
+Windows 95	Windows95
+Windows 98	Windows98
+Windows Me	WindowsMe
+Windows 2000	Windows2000
+Windows XP	WindowsXP
+Windows Vista	WindowsVista
+Windows 7	Windows7
+Windows 8	Windows8
+Windows 10	Windows10
+Windows 11	Windows11
 TypeORM	TypeORM
 Griffiths	Griffiths
 Chapman	Chapman
@@ -281,10 +327,10 @@ Secure Shell	SSH
 Secure Shell	SecureShell
 ISO	ISO
 International Organization for Standardization	ISO
-ISO 8601	ISO
+ISO 8601	ISO8601
 RFC	RFC
 Request for Comments	RFC
-RFC 3339	RFC
+RFC 3339	RFC3339
 RFCs	RFCs
 IETF	IETF
 Internet Engineering Task Force	IETF
@@ -319,7 +365,7 @@ Central Processing Unit	CPU
 Central Processing Unit	CentralProcessingUnit
 GPU	GPU
 Graphics Processing Unit	GPU
-Graphics Processing Unit	Graphics Processing Unit
+Graphics Processing Unit	GraphicsProcessingUnit
 MCU	MCU
 ARM	ARM
 Advanced RISC Machine	ARM
@@ -334,7 +380,7 @@ ColorOS	ColorOS
 China Central Television	ChinaCentralTelevision
 GTA	GTA
 Grand Theft Auto	GTA
-Grand Theft Auto	Grand Theft Auto
+Grand Theft Auto	GrandTheftAuto
 GTAV	GTAV
 Grand Theft Auto V	GTAV
 Grand Theft Auto V	GrandTheftAutoV
@@ -347,7 +393,6 @@ CentOS	CentOS
 Debian	Debian
 BBC	BBC
 DataGrip	DataGrip
-Alpha	Alpha
 AlphaGo	AlphaGo
 AlphaFold	AlphaFold
 Valve	Valve
@@ -396,7 +441,6 @@ NameSilo	NameSilo
 localhost	localhost
 Musixmatch	Musixmatch
 G Suite	GSuite
-Visa	Visa
 CloudXNS	CloudXNS
 Bitwarden	Bitwarden
 BitComet	BitComet
@@ -412,6 +456,9 @@ Xbox Series	XboxSeries
 Xbox Series S	XboxSeriesS
 Switch	Switch
 CSS	CSS
+Cascading Style Sheets	CSS
+Cascading Style Sheets	CascadingStyleSheets
+cascading	cascading
 ID	ID
 OTC	OTC
 IEPL	IEPL
@@ -434,12 +481,8 @@ VIP	VIP
 D.VA	DVA
 Logo	Logo
 Telnet	Telnet
-IPv4	IPv
-IPv6	IPv
-IPv4	IPvs
-IPv6	IPvl
-IPv4	IPvsi
-IPv6	IPvliu
+IPv4	IPv4
+IPv6	IPv6
 Unix	Unix
 Rick and Morty	RickandMorty
 Tokyo	Tokyo
@@ -485,7 +528,6 @@ Hugo	Hugo
 Epic	Epic
 Epic Games	EpicGames
 Instagram	Instagram
-Beta	Beta
 archive	archive
 Evernote	Evernote
 PDF	PDF
@@ -498,7 +540,6 @@ Gitea	Gitea
 GitBook	GitBook
 Gboard	Gboard
 Access	Access
-Bug	Bug
 BMW	BMW
 Bayerische Motoren Werke AG	BMW
 BGM	BGM
@@ -518,7 +559,6 @@ Flask	Flask
 Facebook	Facebook
 Firefox	Firefox
 Git	Git
-Go	Go
 GoLand	GoLand
 Golang	Golang
 IQOS	IQOS
@@ -537,8 +577,7 @@ Markdown	Markdown
 Microsoft Access	Access
 MongoDB	MongoDB
 MySQL	MySQL
-Node	Node
-Node.js	Nodejs
+Node.js	Node.js
 Pornhub	Pornhub
 PostgreSQL	PostgreSQL
 Postgres	Postgres
@@ -551,7 +590,6 @@ Roguelike	Roguelike
 Redis	Redis
 Rime	Rime
 RION	RION
-Rust	Rust
 segmentfault	segmentfault
 SPA	SPA
 SQL	SQL
@@ -560,20 +598,18 @@ Structured Query Language	StructuredQueryLanguage
 SQLite	SQLite
 Sourcetree	Sourcetree
 Spiritfarer	Spiritfarer
-TCP/IP	tcpip
+TCP/IP	TCP/IP
 Twitter	Twitter
-V2EX	Ver
-V2EX	VerEX
-V2EX	VtoEX
+V2EX	V2EX
 VSCode	VSCode
 Vue	Vue
-Vue.js	Vuejs
+Vue.js	Vue.js
 WC	WC
 Web	Web
 WebStorm	WebStorm
 Word	Word
 Xcode	Xcode
-Emoji	Emoji
+emoji	emoji
 exe	exe
 gakki	gakki
 hey	hey
@@ -590,9 +626,6 @@ Graphics Interchange Format	GIF
 DNS	DNS
 Domain Name System	DNS
 Domain Name System	DomainNameSystem
-Mod	Mod
-Yes	Yes
-No	No
 RimWorld	RimWorld
 Factorio	Factorio
 Game Boy	GameBoy
@@ -671,7 +704,6 @@ Developer Preview	DeveloperPreview
 DEVONthink	DEVONthink
 Disk Utility	DiskUtility
 Diumoo	Diumoo
-Dock	Dock
 Dropbox	Dropbox
 Dropzone	Dropzone
 Endnote	Endnote
@@ -685,7 +717,6 @@ Fantastical	Fantastical
 FileVault	FileVault
 Final Cut Pro	FinalCutPro
 Flickr	Flickr
-Flux	Flux
 Force Touch	ForceTouch
 Forecast	Forecast
 ForkLift	ForkLift
@@ -750,8 +781,6 @@ Little Snitch	LittleSnitch
 Live Photos	LivePhotos
 LiveReload	LiveReload
 LockScreen	LockScreen
-MAS	MAS
-Mac App Store	MAS
 Mac App Store	MacAppStore
 Mac Rumors	MacRumors
 MacAppDeals	MacAppDeals
@@ -773,10 +802,8 @@ MIPS	MIPS
 Moke	Moke
 Moneywiz	Moneywiz
 Moom	Moom
-MP3	MPs
-MP3	MPsan
-MP4	MPs
-MP4	MPsi
+MP3	MP3
+MP4	MP4
 MplayerX	MplayerX
 Netflix	Netflix
 Noizio	Noizio
@@ -853,7 +880,6 @@ StackSocial	StackSocial
 Sublime Text	SublimeText
 Surge	Surge
 Symbol	Symbol
-Tag	Tag
 TechWeb	TechWeb
 Telegram	Telegram
 Terminal	Terminal
@@ -863,14 +889,11 @@ Textastic	Textastic
 TextExpander	TextExpander
 TextWrangler	TextWrangler
 The Unarchiver	TheUnarchiver
-Things	Things
-Thunder	Thunder
 Thunderbird	Thunderbird
 Time Capsule	TimeCapsule
 Timing	Timing
 TinkerTool	TinkerTool
 Touch ID	TouchID
-Tower	Tower
 Trello	Trello
 Tumblr	Tumblr
 tvOS	tvOS
@@ -887,7 +910,6 @@ Universal Serial Bus	UniversalSerialBus
 Versions	Versions
 VPN	VPN
 virtual private network	VPN
-Watch	Watch
 watchOS	watchOS
 Wi-Fi	waifai
 Wi-Fi	WiFi
@@ -918,7 +940,9 @@ ZEALER	ZEALER
 Rosetta	Rosetta
 Face ID	FaceID
 URL	URL
+Uniform Resource Locator	URL
 URI	URI
+Uniform Resource Identifier	URI
 HTTP	HTTP
 Hypertext Transfer Protocol	HTTP
 Hypertext Transfer Protocol	HypertextTransferProtocol
@@ -944,7 +968,6 @@ Not Safe For Work	NSFW
 Not Suitable For Work	NSFW
 Not Safe For Work	NotSafeForWork
 Not Suitable For Work	NotSuitableForWork
-Disco	Disco
 Termius	Termius
 Jinja	Jinja
 capitalize	capitalize
@@ -988,13 +1011,9 @@ Stack Overflow	StackOverflow
 PyWebIO	PyWebIO
 Launchpad	Launchpad
 Squoosh	Squoosh
-Win	Win
 cosplay	cosplay
 Gravatar	Gravatar
-Max	Max
-Copilot	Copilot
 copilot	copilot
-Fleet	Fleet
 Xshell	Xshell
 Nokia	Nokia
 OCR	OCR
@@ -1022,11 +1041,9 @@ Darwin	Darwin
 NAS	NAS
 Network Attached Storage	NAS
 Network Attached Storage	NetworkAttachedStorage
-Fork	Fork
 CommonMark	CommonMark
 Goldmark	Goldmark
 blackFriday	blackFriday
-Online	Online
 One UI	OneUI
 Raycast	Raycast
 CloudFront	CloudFront
@@ -1049,7 +1066,6 @@ PaperMod	PaperMod
 Vercel	Vercel
 chore	chore
 chores	chores
-SWAG	SWAG
 swag	swag
 CS	CS
 Counter-Strike	CS
@@ -1074,8 +1090,6 @@ Gecko	Gecko
 Omicron	Omicron
 TinyPNG	TinyPNG
 Thanos	Thanos
-Byte	Byte
-bytes	bytes
 XML	XML
 Extensible Markup Language	XML
 Extensible Markup Language	ExtensibleMarkupLanguage
@@ -1087,13 +1101,13 @@ Baiduspider	Baiduspider
 Bingbot	Bingbot
 SogouSpider	SogouSpider
 YoudaoBot	YoudaoBot
-SWAT	SWAT
+swat	swat
 footer	footer
 header	header
 GitHub Copilot	GitHubCopilot
 GitHub Copilot X	GitHubCopilotX
 GitHub Copilot CLI	GitHubCopilotCLI
-Blog	Blog
+GitHub Copilot chat	GitHubCopilotchat
 iPadOS	iPadOS
 Apple Pencil	ApplePencil
 Reddit	Reddit
@@ -1127,7 +1141,7 @@ Shottr	Shottr
 turbo	turbo
 Turbo Boost	TurboBoost
 Turbo Boost Switcher	TurboBoostSwitcher
-P2P	ptop
+P2P	P2P
 OPPO	OPPO
 vivo	vivo
 Uno	Uno
@@ -1154,22 +1168,17 @@ GNU General Public License	GNU
 GNU General Public License	GNUGeneralPublicLicense
 GPL	GPL
 GNU General Public License	GPL
-Brave	Brave
-iPhone X	iPhoneX
-iPhone XS	iPhoneXS
-iPhone XS Max	iPhoneXSMax
-iPhone XR	iPhoneXR
 Delta	Delta
 Ukraine	Ukraine
 Minions	Minions
 Rush B	RushB
 Rush A	RushA
 AK	AK
-AK47	AK
-AK74	AK
+AK47	AK47
+AK74	AK74
 Mastercard	Mastercard
 COVID	COVID
-COVID-19	COVID
+COVID-19	COVID-19
 Wallpaper Engine	WallpaperEngine
 Erlang	Erlang
 FAQ	FAQ
@@ -1213,9 +1222,9 @@ NULL	NULL
 Slice	Slice
 Map	Map
 Mojito	Mojito
-Bob	Bob
 Toolbox	Toolbox
 Weasel	Weasel
+weasel	weasel
 Niconico	Niconico
 TickTick	TickTick
 CHDBits	CHDBits
@@ -1260,8 +1269,7 @@ Microsoft Edge	MicrosoftEdge
 Visual Studio Code	VisualStudioCode
 Visual Studio Code	VSCode
 PowerShell	PowerShell
-.Net	Net
-.Net	dotNet
+.NET	.NET
 Surface	Surface
 MSN	MSN
 Skype	Skype
@@ -1281,7 +1289,7 @@ New Technology File System	NTFS
 New Technology File System	NewTechnologyFileSystem
 Microsoft NTFS	NTFS
 Microsoft NTFS	MicrosoftNTFS
-chromeOS	chromeOS
+ChromeOS	ChromeOS
 GCD	GCD
 Grand Central Dispatch	GCD
 Grand Central Dispatch	GrandCentralDispatch
@@ -1405,7 +1413,7 @@ PHP	PHP
 Hypertext Preprocessor	PHP
 Hypertext Preprocessor	HypertextPreprocessor
 cannot	cannot
-Duang	Duang
+duang	duang
 placeholder	placeholder
 Pythonic	Pythonic
 redefine	redefine
@@ -1529,7 +1537,7 @@ USB-B	USBB
 USB-C	USBC
 vex	vex
 tempest	tempest
-J.R.R. Tolkien	JRRTolkien
+J.R.R. Tolkien	J.R.R.Tolkien
 Impostor Factory	ImpostorFactory
 impostor	impostor
 Vampire Survivors	VampireSurvivors
@@ -1642,22 +1650,19 @@ eSATA	eSATA
 mSATA	mSATA
 GPIB	GPIB
 GPIO	GPIO
-Mac	Mac
 LCD	LCD
 DVD	DVD
 CD	CD
-Bluetooth	Bluetooth
 eSIM	eSIM
 UTF	UTF
-UTF-8	UTF
+UTF-8	UTF-8
+UTF-16	UTF-16
 ASCII	ASCII
 ANSI	ANSI
 IEEE	IEEE
 Institute of Electrical and Electronics Engineers	IEEE
 DjVu	DjVu
 LaTeX	LaTeX
-Wire	Wire
-Guard	Guard
 API	API
 Application Programming Interface	API
 Ethernet	Ethernet
@@ -1672,7 +1677,8 @@ RNA	RNA
 ribonucleic acid	RNA
 mRNA	mRNA
 messenger RNA	mRNA
-C++	cpp
+C++	Cpp
+C++	C++
 Python	Python
 Perl	Perl
 Swift	Swift
@@ -1688,7 +1694,6 @@ Mozilla Firefox	MozillaFirefox
 Apache	Apache
 Steam	Steam
 Steam Deck	SteamDeck
-app	app
 Android	Android
 android	android
 Arch	Arch
@@ -1824,8 +1829,8 @@ Welsh	Welsh
 CN	CN
 MTV	MTV
 Music Television	MTV
-Music Television	Music Television
-Mrs.	Mrs
+Music Television	MusicTelevision
+Mrs.	Mrs.
 MitM	MitM
 man-in-the-middle	MitM
 ToDesk	ToDesk
@@ -1945,6 +1950,7 @@ WLAN	WLAN
 Wireless LAN	WLAN
 GPT	GPT
 Generative Pre-trained Transformer	GPT
+GPT-4	GPT-4
 Bard	Bard
 bard	bard
 LaMDA	LaMDA
@@ -1972,8 +1978,6 @@ GoFrame	GoFrame
 ORM	ORM
 Object Relational Mapping	ORM
 Gin	Gin
-Echo	Echo
-Iris	Iris
 iris	iris
 burnt	burnt
 KPI	KPI
@@ -2013,7 +2017,6 @@ rune	rune
 wick	wick
 meow	meow
 woof	woof
-Bromite	Bromite
 bromite	bromite
 Zelda	Zelda
 hutch	hutch
@@ -2069,8 +2072,8 @@ WWII	WWII
 World War II	WWII
 WWIII	WWIII
 World War III	WWIII
-PL/pgSQL	PLpgSQL
-Procedural Language / PostGres Structured Query Language	PLpgSQL
+PL/pgSQL	PL/pgSQL
+Procedural Language / PostGres Structured Query Language	PL/pgSQL
 IQ	IQ
 Intelligence quotient	IQ
 quotient	quotient
@@ -2208,7 +2211,7 @@ LLaMA	LLaMA
 Large Language Model Meta AI	LLaMA
 fellatio	fellatio
 silo	silo
-R.I.P	RIP
+R.I.P	R.I.P
 requiescat	requiescat
 AIGC	AIGC
 AI Generated Content	AIGC
@@ -2216,3 +2219,39 @@ Presto	Presto
 presto	presto
 Upscayl	Upscayl
 Cocos Creator	CocosCreator
+John Wick	JohnWick
+firetruck	firetruck
+prankster	prankster
+pranksters	pranksters
+npm	npm
+Node Package Manager	npm
+Node Package Manager	NodePackageManager
+Apple Vision	AppleVision
+Apple Vision Pro	AppleVisionPro
+Vision Pro	VisionPro
+shithead	shithead
+a11y	a11y
+accessibility	a11y
+i18n	i18n
+internationalization	i18n
+internationalization	internationalization
+l10n	l10n
+localization	l10n
+g11n	g11n
+globalization	g11n
+m17n	m17n
+multilingualization	m17n
+multilingualization	multilingualization
+t9n	t9n
+translation	t9n
+p13n	p13n
+personalization	p13n
+personalization	personalization
+K8s	K8s
+Kubernetes	K8s
+Kubernetes	Kubernetes
+containerized	containerized
+shitty	shitty
+shitwork	shitwork
+A4	A4
+3D	3D
