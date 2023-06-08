@@ -238,4 +238,3 @@ bilibili	bili
 bilibili	bilibili
 jupyter	jupyter
 Transformer	transformer
-Embedding	embedding
