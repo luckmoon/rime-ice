@@ -20,9 +20,10 @@
 # 删除「呷ga」（呷呷），《现汉》推荐「嘎嘎」。
 # 删除「芥gai」，《现汉》未收录。
 # 删除「著zhuo」（执著zhuo），《现汉》推荐「执着zhuo」。
-# 删除「虾ha」（虾蟆ha ma），《现汉》推荐「蛤蟆」，保留地名「虾蟆陵」。
+# 删除「虾ha」（虾蟆ha ma），《现汉》推荐「蛤蟆」，保留地名「虾蟆陵ha ma ling」。
 # 「嬛」xuan → huan
 # 删除「夹ga」，使用「胳肢窝ga zhi wo」。
+# 删除「隽jun」，同「俊」。
 #
 # 多音字权重问题：
 # 在 Rime 的自动注音程序中，权重比小于等于 5% 的多音字不会参与自动注音。
@@ -31,7 +32,7 @@
 # 降低一些几乎只在一个固定词汇中使用的读音的权重，不让其参与注音，在 base 中手动注音。
 ---
 name: 8105
-version: "2023-05-30"
+version: "2023-06-13"
 sort: by_weight
 ...
 ### 按需启用
@@ -47,6 +48,7 @@ sort: by_weight
 菈	la	528
 卻	que	908
 濛	meng	33
+诶	36899
 # 注释掉的这几行已经加入到下面并调整到合适的权重了
 # 〇	1
 # 囧	1
@@ -433,7 +435,6 @@ sort: by_weight
 苄	bian	108
 抃	bian	82
 碥	bian	17
-邲	bian	80
 萹	bian	1
 𨚕	bian	1
 表	biao	29172
@@ -1472,13 +1473,13 @@ sort: by_weight
 墩	dun	1372
 炖	dun	3020
 盹	dun	54
-囤	dun	1271
 惇	dun	724
 趸	dun	266
 礅	dun	24
 蹾	dun	1
 砘	dun	1
 镦	dun	29
+囤	dun	1271
 多	duo	900183
 躲	duo	12008
 朵	duo	8181
@@ -1867,11 +1868,11 @@ sort: by_weight
 罡	gang	67
 杠	gang	1262
 肛	gang	5533
-戆	gang	270
 筻	gang	13
 冮	gang	16
 矼	gang	12
 堽	gang	31
+戆	gang	270
 扛	gang	6449
 㭎	gang	80
 鿍	gang	3
@@ -2010,7 +2011,6 @@ sort: by_weight
 鼓	gu	4435
 固	gu	1393
 估	gu	1497
-贾	gu	6529
 咕	gu	673
 辜	gu	353
 雇	gu	1100
@@ -2020,6 +2020,7 @@ sort: by_weight
 箍	gu	542
 锢	gu	16
 沽	gu	260
+贾	gu	6529
 鹄	gu	267
 鹘	gu	55
 臌	gu	2
@@ -2807,7 +2808,6 @@ sort: by_weight
 睑	jian	78
 翦	jian	117
 饯	jian	1
-犍	jian	575
 蹇	jian	468
 僭	jian	912
 菅	jian	272
@@ -2833,6 +2833,7 @@ sort: by_weight
 暕	jian	9
 牮	jian	1
 篯	jian	72
+犍	jian	575
 鳒	jian	44
 𬣡	jian	1
 将	jiang	462933
@@ -3040,12 +3041,12 @@ sort: by_weight
 阱	jing	182
 兢	jing	14
 劲	jing	9555
-靓	jing	779
 憬	jing	20
 婧	jing	98
 鲸	jing	2362
 茎	jing	2900
 丼	jing	193
+靓	jing	779
 旌	jing	133
 痉	jing	35
 泾	jing	680
@@ -3248,7 +3249,6 @@ sort: by_weight
 莙	jun	16
 晙	jun	29
 筠	jun	85
-隽	jun	158
 鲪	jun	9
 龟	jun	6909
 䐃	jun	1
@@ -4613,11 +4613,11 @@ sort: by_weight
 喔	o	21180
 欧	ou	21690
 偶	ou	14997
-区	ou	146924
 呕	ou	754
 殴	ou	219
 鸥	ou	443
 藕	ou	684
+区	ou	146924
 怄	ou	43
 瓯	ou	230
 讴	ou	98
@@ -4870,6 +4870,7 @@ sort: by_weight
 桲	po	39
 朴	po	1161
 繁	po	1114
+陂	po	290
 䥽	po	2
 酦	po	60
 剖	pou	360
@@ -5192,8 +5193,8 @@ sort: by_weight
 丘	qiu	2248
 邱	qiu	1652
 囚	qiu	415
-仇	qiu	2786
 裘	qiu	615
+仇	qiu	2786
 酋	qiu	89
 虬	qiu	83
 糗	qiu	638
@@ -5446,9 +5447,9 @@ sort: by_weight
 散	san	14054
 伞	san	4291
 叁	san	243
-糁	san	24
 馓	san	7
 毵	san	2
+糁	san	24
 丧	sang	1028
 桑	sang	15269
 嗓	sang	262
