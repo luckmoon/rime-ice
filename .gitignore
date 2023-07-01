@@ -19,3 +19,5 @@ rime_patch
 
 sync/
 ext_dicts/baidu_personal.dict.yaml
+others/script/cpp/.cache
+others/script/cpp/deps
