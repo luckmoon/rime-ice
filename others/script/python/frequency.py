@@ -4,6 +4,7 @@ import json
 import os
 from collections import Counter
 from concurrent.futures import ProcessPoolExecutor
+from enum import Enum
 from functools import reduce
 
 import jieba
@@ -13,13 +14,37 @@ from tqdm import tqdm
 # warm up
 jieba.lcut("1234")
 
-USERNAME = getpass.getuser()
-# tok = hanlp.load(hanlp.pretrained.tok.COARSE_ELECTRA_SMALL_ZH)
-# HanLP.Config.ShowTermNature = False
-# yaml_files = ["../../../cn_dicts/ext.dict.yaml"]
-yaml_files = glob.glob("../../../cn_dicts/*.yaml")
-BASE_CORPUS_DIR = f"/Users/{USERNAME}/Downloads/rime_corpus"
-print(BASE_CORPUS_DIR)
+
+class Platform(Enum):
+    windows = 1
+    mac = 2
+    linux = 3
+    others = 4
+
+
+def get_platform():
+    import platform
+    sys_platform = platform.platform().lower()
+    if "windows" in sys_platform:
+        return Platform.windows
+    elif "macos" in sys_platform:
+        return Platform.mac
+    elif "linux" in sys_platform:
+        return Platform.linux
+    else:
+        return Platform.others
+
+
+def get_base_dir():
+    platform = get_platform()
+    username = getpass.getuser()
+
+    if platform == Platform.mac:
+        return f"/Users/{username}/Downloads/rime_corpus"
+    elif platform == Platform.linux:
+        return f"/home/{username}/Downloads/rime_corpus"
+    else:
+        raise ValueError()
 
 
 def load_cn_tokens():
@@ -223,5 +248,12 @@ def main2():
 
 
 if __name__ == "__main__":
+    # tok = hanlp.load(hanlp.pretrained.tok.COARSE_ELECTRA_SMALL_ZH)
+    # HanLP.Config.ShowTermNature = False
+    # yaml_files = ["../../../cn_dicts/ext.dict.yaml"]
+    yaml_files = glob.glob("../../../cn_dicts/*.yaml")
+    BASE_CORPUS_DIR = get_base_dir()
+    print(BASE_CORPUS_DIR)
+
     # main()
     main2()
