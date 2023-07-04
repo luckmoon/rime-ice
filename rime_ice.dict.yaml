@@ -22,6 +22,7 @@ import_tables:
   - ext_dicts/baidu_personal      # 百度词库-个人词库
   # - cn_dicts/mydict
 ...
+
 # 按需启用：
 
 # 大写字母
