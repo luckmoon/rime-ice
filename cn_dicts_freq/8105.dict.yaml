@@ -34,7 +34,7 @@
 # 「地 de di」，这种不好用固定词组区分的，全部注音。
 ---
 name: 8105
-version: "2023-07-08"
+version: "2023-07-16"
 sort: by_weight
 ...
 ### 按需启用
@@ -489,7 +489,6 @@ sort: by_weight
 兵	bing	15810
 冰	bing	12810
 病	bing	27581
-屏	bing	5185
 柄	bing	3645
 饼	bing	16149
 禀	bing	282
@@ -498,6 +497,7 @@ sort: by_weight
 炳	bing	1294
 槟	bing	133
 摒	bing	68
+屏	bing	5185
 邴	bing	37
 昺	bing	140
 栟	bing	31
@@ -663,8 +663,8 @@ sort: by_weight
 𥻗	cha	1
 拆	chai	14408
 柴	chai	4775
-差	chai	98245
 钗	chai	1406
+差	chai	98245
 豺	chai	141
 侪	chai	29
 茝	chai	18
@@ -773,8 +773,8 @@ sort: by_weight
 辰	chen	1846
 衬	chen	720
 嗔	chen	241
-称	chen	77424
 琛	chen	766
+称	chen	77424
 宸	chen	430
 忱	chen	107
 抻	chen	204
@@ -2608,7 +2608,6 @@ sort: by_weight
 季	ji	30529
 击	ji	4735
 急	ji	31737
-奇	ji	19635
 系	ji	59720
 即	ji	116365
 既	ji	21428
@@ -2642,6 +2641,7 @@ sort: by_weight
 嫉	ji	97
 饥	ji	322
 剂	ji	3373
+奇	ji	19635
 给	ji	761108
 脊	ji	1619
 稽	ji	1033
@@ -2872,15 +2872,14 @@ sort: by_weight
 角	jiao	21572
 较	jiao	79917
 娇	jiao	2285
-觉	jiao	18315
 焦	jiao	3808
 骄	jiao	442
 轿	jiao	1227
 搅	jiao	2704
 狡	jiao	123
-校	jiao	9972
 郊	jiao	533
 胶	jiao	3410
+觉	jiao	18315
 嚼	jiao	2503
 绞	jiao	495
 剿	jiao	381
@@ -2892,6 +2891,7 @@ sort: by_weight
 矫	jiao	276
 饺	jiao	148
 蕉	jiao	659
+校	jiao	9972
 礁	jiao	1697
 皎	jiao	461
 窖	jiao	230
@@ -3185,8 +3185,8 @@ sort: by_weight
 眷	juan	221
 绢	juan	898
 鹃	juan	244
-圈	juan	29240
 涓	juan	388
+圈	juan	29240
 隽	juan	296
 镌	juan	129
 蠲	juan	56
@@ -3200,9 +3200,9 @@ sort: by_weight
 决	jue	2225
 爵	jue	1420
 诀	jue	385
-角	jue	21572
 嚼	jue	2503
 掘	jue	1189
+角	jue	21572
 厥	jue	270
 倔	jue	830
 撅	jue	759
@@ -3490,11 +3490,11 @@ sort: by_weight
 啦	la	297109
 拉	la	100955
 辣	la	13929
-落	la	18807
 垃	la	87
 腊	la	830
 喇	la	1943
 蜡	la	898
+落	la	18807
 剌	la	2762
 邋	la	18
 旯	la	7
@@ -3568,12 +3568,12 @@ sort: by_weight
 老	lao	181835
 劳	lao	6120
 牢	lao	1635
-落	lao	18807
 姥	lao	238
 捞	lao	6487
 唠	lao	1060
 佬	lao	3173
 烙	lao	424
+落	lao	18807
 酪	lao	138
 涝	lao	128
 崂	lao	72
@@ -4354,7 +4354,6 @@ sort: by_weight
 魔	mo	68749
 莫	mo	39937
 默	mo	4299
-没	mo	1284373
 模	mo	3905
 摸	mo	24200
 摩	mo	8262
@@ -4363,6 +4362,7 @@ sort: by_weight
 漠	mo	190
 抹	mo	9818
 墨	mo	5356
+没	mo	1284373
 麽	mo	6591
 陌	mo	730
 寞	mo	84
@@ -4792,8 +4792,8 @@ sort: by_weight
 偏	pian	20603
 骗	pian	31994
 篇	pian	32027
-便	pian	77965
 翩	pian	43
+便	pian	77965
 骈	pian	322
 蹁	pian	1
 谝	pian	29
@@ -5003,8 +5003,8 @@ sort: by_weight
 𬨂	qi	1
 掐	qia	2900
 恰	qia	4240
-卡	qia	81206
 洽	qia	243
+卡	qia	81206
 袷	qia	8
 髂	qia	164
 拤	qia	1
@@ -5613,9 +5613,9 @@ sort: by_weight
 呻	shen	21
 渗	shen	556
 婶	shen	1046
-参	shen	3658
 绅	shen	263
 肾	shen	5546
+参	shen	3658
 莘	shen	333
 珅	shen	50
 蜃	shen	51
@@ -7324,9 +7324,9 @@ sort: by_weight
 尧	yao	1698
 吆	yao	274
 肴	yao	52
+约	yao	180931
 曜	yao	724
 窈	yao	52
-约	yao	180931
 杳	yao	56
 舀	yao	173
 爻	yao	221
@@ -8026,8 +8026,8 @@ sort: by_weight
 债	zhai	2089
 窄	zhai	4582
 斋	zhai	3903
-择	zhai	579
 翟	zhai	867
+择	zhai	579
 瘵	zhai	7
 祭	zhai	6921
 豸	zhai	42
