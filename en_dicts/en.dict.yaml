@@ -14,7 +14,7 @@
 # 转化应当大写的单词
 ---
 name: en
-version: "2023-06-29"
+version: "2023-07-23"
 sort: by_weight
 ...
 # +_+
@@ -6502,7 +6502,7 @@ errors	errors
 erupt	erupt
 # es	es
 # esa	esa
-ESC	ESC
+Esc	Esc
 escalate	escalate
 escape	escape
 escaped	escaped
@@ -7791,8 +7791,8 @@ galactic	galactic
 galaxies	galaxies
 galaxy	galaxy
 gale	gale
-galerie	galerie
-galileo	galileo
+# galerie	galerie
+Galileo	Galileo
 Gallagher	Gallagher
 galleries	galleries
 gallery	gallery
@@ -12156,8 +12156,8 @@ monstrous	monstrous
 montana	montana
 monte	monte
 Montenegro	Montenegro
-monterey	monterey
-montgomery	montgomery
+Monterey	Monterey
+Montgomery	Montgomery
 month	month
 monthly	monthly
 months	months
@@ -14171,13 +14171,13 @@ pneumonia	pneumonia
 PNG	PNG
 # po	po
 pocket	pocket
-# PocketPC	PocketPC
+Pocket PC	PocketPC
 pockets	pockets
 pod	pod
 podcast	podcast
 podcasting	podcasting
 podcasts	podcasts
-# poe	poe
+poe	poe
 poem	poem
 poems	poems
 poet	poet
