@@ -33,7 +33,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2023-08-07"
+version: "2023-08-15"
 sort: by_weight
 ...
 ### 按需启用
@@ -74,7 +74,6 @@ sort: by_weight
 # 唔	1
 # 噷	hm	1
 # 呣	m	1
-# 欻	chua	1
 # 哼	hng	1
 嗯	eng	170881
 欸	ei	1283
@@ -949,6 +948,7 @@ sort: by_weight
 濋	chu	11
 琡	chu	35
 𬺓	chu	1
+欻	chua	20
 揣	chuai	692
 踹	chuai	3934
 搋	chuai	19
@@ -3634,6 +3634,7 @@ sort: by_weight
 立	li	22041
 离	li	47770
 利	li	29691
+梨	li	2945
 丽	li	8954
 历	li	4214
 礼	li	10623
@@ -3649,7 +3650,6 @@ sort: by_weight
 隶	li	1144
 吏	li	826
 栗	li	1144
-梨	li	2945
 漓	li	41
 雳	li	48
 厘	li	1059
@@ -3768,12 +3768,12 @@ sort: by_weight
 𬜯	liang	1
 聊	liao	44473
 料	liao	8711
-了	liao	8485563
 疗	liao	787
 辽	liao	5443
 廖	liao	3306
 撩	liao	1309
 寥	liao	40
+了	liao	8485563
 僚	liao	226
 缭	liao	37
 燎	liao	121
@@ -5669,6 +5669,7 @@ sort: by_weight
 始	shi	6026
 失	shi	6353
 士	shi	15256
+湿	shi	10780
 石	shi	21877
 识	shi	4616
 视	shi	8642
@@ -5690,7 +5691,6 @@ sort: by_weight
 侍	shi	2129
 拾	shi	1172
 饰	shi	17921
-湿	shi	10780
 誓	shi	1030
 驶	shi	267
 逝	shi	1912
@@ -6378,6 +6378,7 @@ sort: by_weight
 窊	wa	9
 腽	wa	1
 坬	wa	68
+凹	wa	3430
 畖	wa	4
 外	wai	82884
 歪	wai	9239
