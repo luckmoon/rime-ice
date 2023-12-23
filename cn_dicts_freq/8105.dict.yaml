@@ -33,7 +33,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2023-09-08"
+version: "2023-12-22"
 sort: by_weight
 ...
 ### 按需启用
@@ -43,6 +43,8 @@ sort: by_weight
 
 
 ### 扩展，不在《通用规范汉字表》的字:
+𤭢	cei	1
+𤭢了	cei le	1
 𰻝	biang	1
 嬢	niang	76
 薙	ti	75
@@ -50,6 +52,10 @@ sort: by_weight
 卻	que	908
 濛	meng	33
 诶	ei	36899
+凃	tu	124
+咲	xiao	460
+螓	qin	1
+珮	pei	432
 # 注释掉的这几行已经加入到下面并调整到合适的权重了
 # 〇	1
 # 囧	1
@@ -620,10 +626,10 @@ sort: by_weight
 艚	cao	42
 螬	cao	2
 𥕢	cao	4
-策	ce	2811
-侧	ce	8960
 测	ce	9620
+侧	ce	8960
 册	ce	5872
+策	ce	2811
 厕	ce	376
 恻	ce	25
 岑	cen	1420
@@ -1000,11 +1006,11 @@ sort: by_weight
 䲠	chun	63
 堾	chun	2
 𬭚	chun	1
-绰	chuo	422
 戳	chuo	11348
 啜	chuo	260
 龊	chuo	86
 辍	chuo	68
+绰	chuo	422
 踔	chuo	4
 惙	chuo	5
 逴	chuo	9
@@ -2945,7 +2951,6 @@ sort: by_weight
 揭	jie	1349
 竭	jie	211
 届	jie	39718
-价	jie	16023
 藉	jie	3658
 婕	jie	224
 睫	jie	40
@@ -2954,6 +2959,7 @@ sort: by_weight
 芥	jie	692
 桔	jie	521
 诘	jie	336
+价	jie	16023
 颉	jie	174
 嗟	jie	199
 孑	jie	158
@@ -6504,6 +6510,7 @@ sort: by_weight
 硙	wei	11
 薳	wei	1
 峗	wei	1
+崴	wei	441
 洈	wei	1
 螱	wei	1
 鳂	wei	137
@@ -7168,6 +7175,7 @@ sort: by_weight
 雅	ya	10173
 牙	ya	12642
 丫	ya	12659
+吖	ya	10472
 讶	ya	62
 涯	ya	321
 哑	ya	885
@@ -7841,8 +7849,8 @@ sort: by_weight
 羱	yuan	53
 圜	yuan	375
 𫘪	yuan	3
-月	yue	1545888
 越	yue	105482
+月	yue	1545888
 约	yue	180931
 跃	yue	962
 岳	yue	3119
