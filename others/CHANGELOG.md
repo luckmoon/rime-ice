@@ -4,6 +4,36 @@
 
 
 
+## 2023-11-29
+
+九宫格方案 2~9 的映射由 ADGJMPTW 改为 23456789 [a0e0ef8](https://github.com/iDvel/rime-ice/commit/a0e0ef807e4ebc50771563717375f554c9473315)
+
+全键盘切换到九宫格方案不再需要删除词库中的大写字母。
+
+（更新至仓输入法商店版 2.1.0 或 TF 119 后可自动适应）
+
+## 2023-10-30 📖
+
+完成同义多音字的注音问题 [#353](https://github.com/iDvel/rime-ice/issues/353)
+
+## 2023-09-08 🆕
+
+仓输入法九宫格方案 [72acbc7](https://github.com/iDvel/rime-ice/commit/72acbc7a2e53cbac7d6f3ab4a82bc457a7ed8f27)
+
+## 2023-08-07 🆕
+
+支持搜狗双拼 [34ab972](https://github.com/iDvel/rime-ice/commit/34ab9725ea9cdf918cbf9f6a4c27d61db7736b07)
+
+## 2023-08-06 🆕
+
+`corrector.lua` 错音错字提示 [3c3582e](https://github.com/iDvel/rime-ice/commit/3ce582e1951acb6dc381332d8e61381767d35a36)
+
+## 2023-07-28 📖
+
+删除了八股文，因为 [#407](https://github.com/iDvel/rime-ice/issues/407)
+
+全词库完成注音 🎉 [#317](https://github.com/iDvel/rime-ice/issues/317)
+
 ## 2023-06-13 ⚠️
 
 中英混输词库不再派生纯大写形式 [6f51bdd](https://github.com/iDvel/rime-ice/commit/6f51bddd1467494c759181a237341f89a1ed3dd1)

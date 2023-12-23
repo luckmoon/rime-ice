@@ -11,18 +11,23 @@ import (
 
 func main() {
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
+
 	if len(os.Args) > 1 {
-		if os.Args[1] == "sort" {
+		switch os.Args[1] {
+		case "s":
 			goto SORT
-		}
-		if os.Args[1] == "temp" {
-			rime.Pinyin(filepath.Join(rime.RimeDir, "cn_dicts/temp"))
+		case "t":
+			rime.Temp()
+			return
+		case "p":
+			rime.CheckPolyphone(rime.BasePath)
+			rime.CheckPolyphone(rime.ExtPath)
+			return
+		case "tp":
+			rime.Pinyin(filepath.Join(rime.RimeDir, "cn_dicts/temp.txt"))
 			return
 		}
 	}
-
-	// 临时
-	rime.Temp()
 
 	// Emoji 检查和更新
 	rime.CheckAndGenerateEmoji()
@@ -47,6 +52,11 @@ func main() {
 	rime.Check(rime.BasePath, 3)
 	rime.Check(rime.ExtPath, 3)
 	rime.Check(rime.TencentPath, 4)
+	fmt.Println("--------------------------------------------------")
+
+	// 检查同义多音字
+	rime.CheckPolyphone(rime.BasePath)
+	rime.CheckPolyphone(rime.ExtPath)
 	fmt.Println("--------------------------------------------------")
 
 	areYouOK()

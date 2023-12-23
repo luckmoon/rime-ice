@@ -14,7 +14,7 @@
 # 转化应当大写的单词
 ---
 name: en
-version: "2023-07-23"
+version: "2023-12-08"
 sort: by_weight
 ...
 # +_+
@@ -1980,7 +1980,7 @@ bindings	bindings
 binds	binds
 bingo	bingo
 binoculars	binoculars
-bins	bins
+# bins	bins
 bio	bio
 biochem	biochem
 biochemical	biochemical
@@ -2785,6 +2785,7 @@ canon	canon
 canonical	canonical
 canopy	canopy
 cans	cans
+can't	can't
 cant	cant
 canteen	canteen
 canterbury	canterbury
@@ -3249,7 +3250,7 @@ chevy	chevy
 chew	chew
 Cheyenne	Cheyenne
 # chf	chf
-# chi	chi
+chi	chi
 Chiang	Chiang
 chic	chic
 chicago	chicago
@@ -3325,7 +3326,7 @@ Christopher	Christopher
 Christy	Christy
 chromatography	chromatography
 chrome	chrome
-Chromium	Chromium
+chromium	chromium
 chromosome	chromosome
 chronic	chronic
 chronicle	chronicle
@@ -5316,7 +5317,7 @@ dictator	dictator
 dictionaries	dictionaries
 dictionary	dictionary
 did	did
-didn't	didnt
+didn't	didn't
 didrex	didrex
 die	die
 diecast	diecast
@@ -5646,7 +5647,7 @@ dodge	dodge
 dodgers	dodgers
 doe	doe
 does	does
-doesn't	doesnt
+doesn't	doesn't
 dog	dog
 dogg	dogg
 dogs	dogs
@@ -5690,7 +5691,7 @@ Donna	Donna
 donor	donor
 donors	donors
 Donovan	Donovan
-don't	dont
+don't	don't
 # dont	dont
 # doo	doo
 doom	doom
@@ -5719,7 +5720,7 @@ doubles	doubles
 doubt	doubt
 doubtless	doubtless
 doubts	doubts
-doug	doug
+Doug	Doug
 dough	dough
 doughty	doughty
 Douglas	Douglas
@@ -6550,7 +6551,7 @@ Estonian	Estonian
 estrogen	estrogen
 # et	et
 eta	eta
-etc	etc
+etc.	etc.
 eternal	eternal
 eternity	eternity
 Ethan	Ethan
@@ -7549,7 +7550,6 @@ fourth	fourth
 fowl	fowl
 fowler	fowler
 fox	fox
-Fox	Fox
 # fp	fp
 # fpo	fpo
 # fprintf	fprintf
@@ -8347,7 +8347,7 @@ GTA	GTA
 # gtk	gtk
 # gu	gu
 Guadeloupe	Guadeloupe
-guam	guam
+Guam	Guam
 guarantee	guarantee
 guaranteed	guaranteed
 guarantees	guarantees
@@ -8501,7 +8501,7 @@ Hannah	Hannah
 Hannover	Hannover
 Hanoi	Hanoi
 Hanover	Hanover
-hans	hans
+Hans	Hans
 Hansard	Hansard
 hansen	hansen
 Hanson	Hanson
@@ -8752,7 +8752,7 @@ Hershey	Hershey
 Hertfordshire	Hertfordshire
 hertz	hertz
 Herzegovina	Herzegovina
-# hes	hes
+he's	he's
 hesitate	hesitate
 Hess	Hess
 # het	het
@@ -8881,7 +8881,7 @@ holland	holland
 hollow	hollow
 Holloway	Holloway
 holly	holly
-hollywood	hollywood
+Hollywood	Hollywood
 Holmes	Holmes
 holocaust	holocaust
 holster	holster
@@ -9224,7 +9224,6 @@ ignoring	ignoring
 # ik	ik
 # il	il
 # ile	ile
-ill	ill
 illegal	illegal
 illegally	illegally
 illicit	illicit
@@ -9913,7 +9912,7 @@ islanders	islanders
 islands	islands
 isle	isle
 isles	isles
-# isnt	isnt
+isn't	isn't
 ISO	ISO
 isolate	isolate
 isolated	isolated
@@ -9937,7 +9936,7 @@ istanbul	istanbul
 # isuzu	isuzu
 it	it
 # ita	ita
-italia	italia
+Italia	Italia
 Italian	Italian
 Italiano	Italiano
 italic	italic
@@ -9950,7 +9949,7 @@ iteration	iteration
 Ithaca	Ithaca
 itinerary	itinerary
 # itk	itk
-its	its
+it's	it's
 itself	itself
 # itu	itu
 iTunes	iTunes
@@ -10765,7 +10764,7 @@ Lester	Lester
 let	let
 lethal	lethal
 # letras	letras
-lets	lets
+let's	let's
 # lett	lett
 letter	letter
 lettering	lettering
@@ -11062,7 +11061,7 @@ logic	logic
 logical	logical
 login	login
 logistics	logistics
-logitech	logitech
+Logitech	Logitech
 logo	logo
 logon	logon
 logos	logos
@@ -12378,7 +12377,7 @@ MVC	MVC
 # mvp	mvp
 # mw	mw
 # mx	mx
-# my	my
+my	my
 myanmar	myanmar
 myers	myers
 myocardial	myocardial
@@ -12403,7 +12402,7 @@ myths	myths
 # nabble	nabble
 # nach	nach
 # nacional	nacional
-nad	nad
+# nad	nad
 # nadu	nadu
 nail	nail
 nails	nails
@@ -12416,7 +12415,7 @@ named	named
 namely	namely
 names	names
 namespace	namespace
-namibia	namibia
+Namibia	Namibia
 naming	naming
 nan	nan
 Nancy	Nancy
@@ -12829,7 +12828,7 @@ nozzle	nozzle
 # nt	nt
 # ntp	ntp
 # ntsc	ntsc
-# nu	nu
+nu	nu
 nuclear	nuclear
 nuclei	nuclei
 nucleic	nucleic
@@ -12929,6 +12928,7 @@ observing	observing
 obsessed	obsessed
 obsession	obsession
 obsolete	obsolete
+obsidian	obsidian
 obstacle	obstacle
 obstacles	obstacles
 obstetrics	obstetrics
@@ -12965,7 +12965,7 @@ oceanic	oceanic
 oceans	oceans
 # och	och
 # oclc	oclc
-o'clock	oclock
+o'clock	o'clock
 # ocr	ocr
 Oct.	Oct
 octave	octave
@@ -13792,7 +13792,7 @@ peripheral	peripheral
 peripherals	peripherals
 perish	perish
 Perkins	Perkins
-perl	perl
+Perl	Perl
 permalink	permalink
 permanent	permanent
 permanently	permanently
@@ -13949,7 +13949,7 @@ physiol	physiol
 physiological	physiological
 physiology	physiology
 physiopathology	physiopathology
-# pi	pi
+pi	pi
 pianist	pianist
 piano	piano
 piazza	piazza
@@ -14198,7 +14198,7 @@ poison	poison
 poisoning	poisoning
 poisonous	poisonous
 poke	poke
-pokemon	pokemon
+Pokemon	Pokemon
 poker	poker
 # pol	pol
 Poland	Poland
@@ -14838,7 +14838,7 @@ psalm	psalm
 psalms	psalms
 # psc	psc
 pseudo	pseudo
-# psi	psi
+psi	psi
 PSP	PSP
 # pst	pst
 # psu	psu
@@ -16906,7 +16906,6 @@ sheila	sheila
 Shelby	Shelby
 Sheldon	Sheldon
 shelf	shelf
-shell	shell
 Shelley	Shelley
 shellfish	shellfish
 shells	shells
@@ -17121,7 +17120,7 @@ sing	sing
 Singapore	Singapore
 singer	singer
 singers	singers
-singh	singh
+Singh	Singh
 singing	singing
 single	single
 singled	singled
@@ -17163,12 +17162,12 @@ sixty	sixty
 # siyabona	siyabona
 size	size
 sized	sized
-sizeof	sizeof
+# sizeof	sizeof
 sizes	sizes
 sizing	sizing
 # sj	sj
 # sk	sk
-ska	ska
+# ska	ska
 skate	skate
 skateboard	skateboard
 skateboarding	skateboarding
@@ -17598,7 +17597,7 @@ spice	spice
 spices	spices
 spicy	spicy
 spider	spider
-spiderman	spiderman
+Spider-Man	Spider-Man
 spiders	spiders
 spies	spies
 spike	spike
@@ -18771,7 +18770,7 @@ thanks	thanks
 thanksgiving	thanksgiving
 thanx	thanx
 that	that
-thats	thats
+that's	that's
 # thb	thb
 the	the
 theater	theater
@@ -18813,7 +18812,7 @@ therefore	therefore
 therein	therein
 thereof	thereof
 thereon	thereon
-Theres	Theres
+there's	there's
 Theresa	Theresa
 thereto	thereto
 thermal	thermal
@@ -19031,7 +19030,7 @@ tobago	tobago
 toby	toby
 # toc	toc
 today	today
-today's	todays
+today's	today's
 Todd	Todd
 toddler	toddler
 toddlers	toddlers
@@ -19162,7 +19161,7 @@ toxicity	toxicity
 toxicology	toxicology
 toxins	toxins
 toy	toy
-toyota	toyota
+Toyota	Toyota
 toys	toys
 # tp	tp
 # tr	tr
@@ -19668,7 +19667,7 @@ unfortunately	unfortunately
 unhappy	unhappy
 # uni	uni
 UNICEF	UNICEF
-unicode	unicode
+Unicode	Unicode
 unidentified	unidentified
 unified	unified
 uniform	uniform
@@ -19858,7 +19857,7 @@ utterly	utterly
 # uv	uv
 # uw	uw
 # ux	ux
-uzbekistan	uzbekistan
+Uzbekistan	Uzbekistan
 # v	v
 # va	va
 vac	vac
@@ -20525,7 +20524,7 @@ whales	whales
 wharf	wharf
 what	what
 whatever	whatever
-whats	whats
+what's	what's
 whatsoever	whatsoever
 wheat	wheat
 Wheaton	Wheaton
@@ -20726,7 +20725,7 @@ Wolverhampton	Wolverhampton
 wolves	wolves
 woman	woman
 women	women
-womens	womens
+women's	women's
 won	won
 wonder	wonder
 wondered	wondered
@@ -20736,6 +20735,7 @@ wondering	wondering
 wonderland	wonderland
 wonders	wonders
 # wong	wong
+won't	won't
 wont	wont
 woo	woo
 Wood	Wood
@@ -20869,7 +20869,7 @@ Xeon	Xeon
 xerox	xerox
 # xf	xf
 XHTML	XHTML
-# xi	xi
+xi	xi
 # xii	xii
 # xiii	xiii
 # xiv	xiv
