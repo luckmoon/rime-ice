@@ -291,10 +291,16 @@ void Processor::dump_new_freq() {
               token + "\t" + pinyin + "\t" + std::to_string(freq) + "\n";
         } else if (tmp.size() == 2) {
           token = tmp[0];
-          // freq = tmp[1];
-          auto it = token_counter.find(token);
-          freq = (it != token_counter.end() ? it->second : 1);
-          dump_line = token + "\t" + std::to_string(freq) + "\n";
+          std::string freq_or_pinyin = tmp[1];
+          if (utils::isNumeric(freq_or_pinyin)) {
+            // freq
+            auto it = token_counter.find(token);
+            freq = (it != token_counter.end() ? it->second : 1);
+            dump_line = token + "\t" + std::to_string(freq) + "\n";
+          } else {
+            // pinyin
+            dump_line = token + "\t" + freq_or_pinyin + "\n";
+          }
         } else if (tmp.size() == 1) {
           token = tmp[0];
           dump_line = token + "\n";

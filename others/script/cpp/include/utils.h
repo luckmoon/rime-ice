@@ -42,6 +42,15 @@ static inline void replaceAll(std::string& str, const std::string& from, const s
     }
 }
 
+static inline bool isNumeric(const std::string &s) {
+    for (auto c : s) {
+        if (!std::isdigit(c)) {
+            return false;  // 如果字符串中有非数字字符，则不是数字
+        }
+    }
+    return true;
+}
+
 std::vector<std::string> findFiles(const std::string &directory);
 std::vector<std::string> findFiles(const std::string &directory,
                                    const std::string &suffix);
