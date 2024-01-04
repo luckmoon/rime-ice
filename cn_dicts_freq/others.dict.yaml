@@ -13,192 +13,192 @@ sort: by_weight
 ...
 ##### 容错词
 # 「阿房宫」的注音争议比较大
-阿房宫	128
-阿房宫	128
-阿房宫	128
-阿房宫	128
-阿房宫赋	17
-阿房宫赋	17
-阿房宫赋	17
-阿房宫赋	17
+阿房宫	e pang gong
+阿房宫	a pang gong
+阿房宫	e fang gong
+阿房宫	a fang gong
+阿房宫赋	e pang gong fu
+阿房宫赋	a pang gong fu
+阿房宫赋	e fang gong fu
+阿房宫赋	a fang gong fu
 # 「伯伯」方言
-伯伯	970
-伯伯	970
+伯伯	bo bo
+伯伯	bai bai
 # 「斜」的古音
-远上寒山石径斜	1
-远上寒山石径斜	1
+远上寒山石径斜	yuan shang han shan shi jing xie
+远上寒山石径斜	yuan shang han shan shi jing xia
 # 「骑」目前统读 qi
-坐骑	1270
-坐骑	1270
-铁骑	588
-铁骑	588
-一骑绝尘	1
-一骑绝尘	1
-一骑当千	36
-一骑当千	36
-一骑红尘妃子笑	1
-一骑红尘妃子笑	1
-走单骑	108
-走单骑	108
-千里走单骑	3
-千里走单骑	3
+坐骑	zuo qi
+坐骑	zuo ji
+铁骑	tie qi
+铁骑	tie ji
+一骑绝尘	yi qi jue chen
+一骑绝尘	yi ji jue chen
+一骑当千	yi qi dang qian
+一骑当千	yi ji dang qian
+一骑红尘妃子笑	yi qi hong chen fei zi xiao
+一骑红尘妃子笑	yi ji hong chen fei zi xiao
+走单骑	zou dan qi
+走单骑	zou dan ji
+千里走单骑	qian li zou dan qi
+千里走单骑	qian li zou dan ji
 # 「街」的粤语和东北话读音及常见的两种写法
-仆街	71
-仆街	71
-扑街	933
-扑街	933
-扑街仔	2
-扑街仔	2
-仆街仔	1
-仆街仔	1
-街溜子	1
-街溜子	1
+仆街	pu jie
+仆街	pu gai
+扑街	pu jie
+扑街	pu gai
+扑街仔	pu jie zai
+扑街仔	pu gai zai
+仆街仔	pu jie zai
+仆街仔	pu gai zai
+街溜子	jie liu zi
+街溜子	gai liu zi
 
 
 ##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
 ### 错音
-馄饨	1568
-馄饨	1568
-主角	26391
-主角	26391
-角色	65025
-角色	65025
-比萨	1433
-比萨	1433
-比萨饼	127
-比萨饼	127
-吃比萨	1
-吃比萨	1
-说服	9545
-说服	9545
-道行	721
-道行	721
-模样	5855
-模样	5855
-有模有样	250
-有模有样	250
-一模一样	6968
-一模一样	6968
-装模作样	225
-装模作样	225
-人模狗样	125
-人模狗样	125
-模板	3684
-模板	3684
-阿弥陀佛	5925
-阿弥陀佛	5925
-南无阿弥陀佛	231
-南无阿弥陀佛	231
-南无阿弥陀佛	231
-南无阿弥陀佛	231
-给予	20759
-给予	20759
-槟榔	1040
-槟榔	1040
-张柏芝	1358
-张柏芝	1358
-藤蔓	223
-藤蔓	223
-弄堂	385
-弄堂	385
-心宽体胖	52
-心宽体胖	52
-埋怨	1974
-埋怨	1974
-虚与委蛇	40
-虚与委蛇	40
-木讷	431
-木讷	431
-独乐乐	78
-独乐乐	78
-众乐乐	78
-众乐乐	78
-荨麻	716
-荨麻	716
-荨麻疹	381
-荨麻疹	381
-模具	1425
-模具	1425
-草薙	230
-草薙	230
-草薙京	86
-草薙京	86
-草薙剑	1
-草薙剑	1
-贾平凹	177
-贾平凹	177
-雪佛兰	1092
-雪佛兰	1092
-强劲	2192
-强劲	2192
-胴体	92
-胴体	92
-力能扛鼎	9
-力能扛鼎	9
-鸭绿江	1049
-鸭绿江	1049
-大腹便便	64
-大腹便便	64
-卡脖子	19
-卡脖子	19
-吱声	308
-吱声	308
-掺和	612
-掺和	612
-掺和	612
-掺和	612
-称职	578
-称职	578
-螺蛳粉	307
-螺蛳粉	307
-调换	517
-调换	517
-太行山	602
-太行山	602
-歇斯底里	950
-歇斯底里	950
-暖和	3473
-暖和	3473
-模棱两可	575
-模棱两可	575
-鄱阳湖	615
-鄱阳湖	615
-脖颈	135
-脖颈	135
-脖颈儿	1
-脖颈儿	1
-结扎	657
-结扎	657
-海参崴	809
-海参崴	809
-厚朴	374
-厚朴	374
-大宛马	1
-大宛马	1
+馄饨	hun tun
+馄饨	hun dun
+主角	zhu jue
+主角	zhu jiao
+角色	jue se
+角色	jiao se
+比萨	bi sa
+比萨	pi sa
+比萨饼	bi sa bing
+比萨饼	pi sa bing
+吃比萨	chi bi sa
+吃比萨	chi pi sa
+说服	shuo fu
+说服	shui fu
+道行	dao heng
+道行	dao hang
+模样	mu yang
+模样	mo yang
+有模有样	you mu you yang
+有模有样	you mo you yang
+一模一样	yi mu yi yang
+一模一样	yi mo yi yang
+装模作样	zhuang mu zuo yang
+装模作样	zhuang mo zuo yang
+人模狗样	ren mu gou yang
+人模狗样	ren mo gou yang
+模板	mu ban
+模板	mo ban
+阿弥陀佛	e mi tuo fo
+阿弥陀佛	a mi tuo fo
+南无阿弥陀佛	na mo e mi tuo fo
+南无阿弥陀佛	na mo a mi tuo fo
+南无阿弥陀佛	nan wu e mi tuo fo
+南无阿弥陀佛	nan wu a mi tuo fo
+给予	ji yu
+给予	gei yu
+槟榔	bing lang
+槟榔	bin lang
+张柏芝	zhang bo zhi
+张柏芝	zhang bai zhi
+藤蔓	teng wan
+藤蔓	teng man
+弄堂	long tang
+弄堂	nong tang
+心宽体胖	xin kuan ti pan
+心宽体胖	xin kuan ti pang
+埋怨	man yuan
+埋怨	mai yuan
+虚与委蛇	xu yu wei yi
+虚与委蛇	xu yu wei she
+木讷	mu ne
+木讷	mu na
+独乐乐	du yue le
+独乐乐	du le le
+众乐乐	zhong yue le
+众乐乐	zhong le le
+荨麻	qian ma
+荨麻	xun ma
+荨麻疹	xun ma zhen
+荨麻疹	qian ma zhen
+模具	mu ju
+模具	mo ju
+草薙	cao ti
+草薙	cao zhi
+草薙京	cao ti jing
+草薙京	cao zhi jing
+草薙剑	cao ti jian
+草薙剑	cao zhi jian
+贾平凹	jia ping wa
+贾平凹	jia ping ao
+雪佛兰	xue fu lan
+雪佛兰	xue fo lan
+强劲	qiang jing
+强劲	qiang jin
+胴体	dong ti
+胴体	tong ti
+力能扛鼎	li neng gang ding
+力能扛鼎	li neng kang ding
+鸭绿江	ya lu jiang
+鸭绿江	ya lv jiang
+大腹便便	da fu pian pian
+大腹便便	da fu bian bian
+卡脖子	qia bo zi
+卡脖子	ka bo zi
+吱声	zi sheng
+吱声	zhi sheng
+掺和	chan huo
+掺和	chan he
+掺和	can huo
+掺和	can he
+称职	chen zhi
+称职	cheng zhi
+螺蛳粉	luo si fen
+螺蛳粉	luo shi fen
+调换	diao huan
+调换	tiao huan
+太行山	tai hang shan
+太行山	tai xing shan
+歇斯底里	xie si di li
+歇斯底里	jie si di li
+暖和	nuan huo
+暖和	nuan he
+模棱两可	mo leng liang ke
+模棱两可	mo ling liang ke
+鄱阳湖	po yang hu
+鄱阳湖	pan yang hu
+脖颈	bo geng
+脖颈	bo jing
+脖颈儿	bo geng er
+脖颈儿	bo jing er
+结扎	jie za
+结扎	jie zha
+海参崴	hai shen wai
+海参崴	hai shen wei
+厚朴	hou po
+厚朴	hou pu
+大宛马	da yuan ma
+大宛马	da wan ma
 ### 错字
-曾经	90758
-曾今	34
-按捺	73
-按耐	114
-按捺不住	222
-按耐不住	44
-别价	8
-别介	189
-甭价	1
-甭介	1
-血脉贲张	1
-血脉偾张	1
-血脉喷张	1
-契诃夫	284
-契科夫	1
-龇牙	56
-龇牙	56
-龇着牙	1
-龇着牙	1
-龇牙咧嘴	56
-龇牙咧嘴	56
-凑合	5204
-凑活	195
+曾经	ceng jing
+曾今	ceng jin
+按捺	an na
+按耐	an nai
+按捺不住	an na bu zhu
+按耐不住	an nai bu zhu
+别价	bie jie
+别介	bie jie
+甭价	beng jie
+甭介	beng jie
+血脉贲张	xue mai ben zhang
+血脉偾张	xue mai fen zhang
+血脉喷张	xue mai pen zhang
+契诃夫	qi he fu
+契科夫	qi ke fu
+龇牙	zi ya
+龇牙	ci ya
+龇着牙	zi zhe ya
+龇着牙	ci zhe ya
+龇牙咧嘴	zi ya lie zui
+龇牙咧嘴	ci ya lie zui
+凑合	cou he
+凑活	cou huo
 
 
 ##### 叠字
@@ -215,14 +215,14 @@ sort: by_weight
 两个人
 两个飞
 两个戈
-两个厶	1
-两个厶	1
+两个厶	liang ge si
+两个厶	liang ge mou
 两个又
 两个香
 两个面
 两个兀
 两个女
-两个𡥦	1
+两个𡥦	liang ge ni
 两个臣
 两个巾
 两个左
@@ -230,11 +230,11 @@ sort: by_weight
 两个来
 两个凡
 两个夕
-两个彐	1
-两个𢎘	1
-两个魚	1
+两个彐	liang ge ji
+两个𢎘	liang ge han
+两个魚	liang ge yu
 两个明
-两个朿	1
+两个朿	liang ge ci
 两个乂
 两个曰
 两个尸
@@ -246,7 +246,7 @@ sort: by_weight
 两个吉
 两个马
 两个卅
-两个巛	1
+两个巛	liang ge chuan
 两个止
 两个比
 两个言
@@ -254,13 +254,13 @@ sort: by_weight
 两个牛
 两个余
 两个束
-两个罒	1
-两个㐅	1
+两个罒	liang ge mu
+两个㐅	liang ge wu
 两个金
 两个木
 两个水
 两个火
-两个風	1
+两个風	liang ge feng
 两个石
 两个口
 两个日
@@ -270,20 +270,20 @@ sort: by_weight
 两个百
 两个耳
 两个山
-两个屮	1
-两个屮	1
+两个屮	liang ge che
+两个屮	liang ge cao
 两个廿
-两个卄	1
+两个卄	liang ge nian
 两个虫
 两个虎
-两个龍	1
-两个馬	1
+两个龍	liang ge long
+两个馬	liang ge ma
 两个犬
 两个人
 两个入
 两个习
-两个卪	1
-两个㔾	1
+两个卪	liang ge jie
+两个㔾	liang ge jie
 两个几
 两个乙
 两个大
@@ -305,16 +305,16 @@ sort: by_weight
 两个女
 两个又
 两个支
-两个隻	1
+两个隻	liang ge zhi
 两个古
 两个吉
 两个舌
 两个言
 两个户
 两个启
-两个來	1
-两个桼	1
-两个旡	1
+两个來	liang ge lai
+两个桼	liang ge qi
+两个旡	liang ge ji
 两个夕
 两个歹
 两个匕
@@ -331,16 +331,16 @@ sort: by_weight
 两个竟
 两个竞
 两个兄
-两个見	1
-两个貝	1
+两个見	liang ge jian
+两个貝	liang ge bei
 两个辛
 两个瓜
 两个呆
 两个果
 两个鸟
 两个巢
-两个禺	1
-两个巿	1
+两个禺	liang ge yu
+两个巿	liang ge fu
 两个句
 两个奇
 两个真
@@ -354,25 +354,25 @@ sort: by_weight
 两个示
 两个至
 两个生
-两个車	1
-两个車	1
+两个車	liang ge che
+两个車	liang ge ju
 两个足
-两个區	1
+两个區	liang ge qu
 两个香
-两个隹	1
+两个隹	liang ge zhui
 两个牟
 两个豕
-两个𠂢	1
-两个畐	1
-两个㣇	1
+两个𠂢	liang ge pai
+两个畐	liang ge fu
+两个㣇	liang ge yi
 两个邑
-两个堯	1
+两个堯	liang ge yao
 两个秉
-两个倉	1
-两个東	1
+两个倉	liang ge cang
+两个東	liang ge dong
 两个善
-两个僉	1
-两个齒	1
+两个僉	liang ge qian
+两个齒	liang ge chi
 两个喜
 两个走
 两个止
@@ -384,20 +384,20 @@ sort: by_weight
 两个不
 两个龙
 两个乞
-两个夋	1
+两个夋	liang ge qun
 两个天
 # 三叠字
 三个生
 三个秦
 三个若
-三个雲	1
+三个雲	san ge yun
 三个人
 三个刀
 三个十
 三个力
 三个原
-三个厶	1
-三个厶	1
+三个厶	san ge si
+三个厶	san ge mou
 三个又
 三个口
 三个七
@@ -426,45 +426,45 @@ sort: by_weight
 三个羊
 三个耳
 三个舌
-三个屮	1
-三个屮	1
+三个屮	san ge che
+三个屮	san ge cao
 三个虫
 三个言
 三个贝
-三个車	1
+三个車	san ge che
 三个金
-三个隹	1
+三个隹	san ge zhui
 三个雷
-三个風	1
-三个飛	1
+三个風	san ge feng
+三个飛	san ge fei
 三个香
 三个马
-三个魚	1
+三个魚	san ge yu
 三个鹿
-三个龍	1
+三个龍	san ge long
 三个个
-三个丶	1
-三个丶	1
+三个丶	san ge zhu
+三个丶	san ge dian
 三个了
 三个介
 三个企
 三个舍
-三个圥	1
+三个圥	san ge lu
 三个光
 三个兔
 三个全
-三个𠙽	1
-三个𠧪	1
-三个𠧪	1
-三个㔾	1
-三个厡	1
+三个𠙽	san ge kuai
+三个𠧪	san ge tiao
+三个𠧪	san ge you
+三个㔾	san ge jie
+三个厡	san ge yuan
 三个可
 三个因
 三个夏
 三个大
 三个天
 三个太
-三个𦉼	1
+三个𦉼	san ge ku
 三个宝
 三个宜
 三个客
@@ -474,70 +474,70 @@ sort: by_weight
 三个市
 三个文
 三个斗
-三个朿	1
+三个朿	san ge ci
 三个束
 三个林
 三个果
 三个欠
-三个𣥚	1
+三个𣥚	san ge zou
 三个爪
 三个妥
 三个用
 三个甲
 三个百
 三个盖
-三个県	1
+三个県	san ge xian
 三个空
-三个亇	1
+三个亇	san ge ge
 三个竹
-三个罒	1
-三个羗	1
+三个罒	san ge mu
+三个羗	san ge qiang
 三个老
 三个月
 三个至
-三个興	1
+三个興	san ge xing
 三个足
-三个㖖	1
-三个門	1
+三个㖖	san ge nie
+三个門	san ge men
 三个面
-三个頁	1
-三个鳥	1
+三个頁	san ge ye
+三个鳥	san ge niao
 三个男
 三个立
 三个九
 三个也
 三个加
-三个動	1
+三个動	san ge dong
 三个千
 三个方
 三个朔
 三个玉
 三个申
-三个𡿨	1
+三个𡿨	san ge quan
 三个去
 三个弓
-三个䖝	1
-三个丿	1
+三个䖝	san ge chong
+三个丿	san ge pie
 三个户
 三个瓜
 三个鸟
 三个米
 # 四叠字
-四个乂	1
+四个乂	si ge yi
 四个人
-四个厶	1
-四个厶	1
+四个厶	si ge si
+四个厶	si ge mou
 四个又
 四个匕
 四个工
 四个口
 四个天
 四个小
-四个屮	1
-四个屮	1
+四个屮	si ge che
+四个屮	si ge cao
 四个火
 四个牛
-四个魚	1
+四个魚	si ge yu
 四个月
 四个日
 四个林
@@ -550,20 +550,20 @@ sort: by_weight
 四个困
 四个竹
 四个老
-四个朿	1
+四个朿	si ge ci
 四个先
 四个金
 四个泉
 四个言
-四个門	1
+四个門	si ge men
 四个果
 四个春
-四个車	1
-四个風	1
+四个車	si ge che
+四个風	si ge feng
 四个雷
-四个雲	1
-四个興	1
-四个龍	1
+四个雲	si ge yun
+四个興	si ge xing
+四个龍	si ge long
 四个土
 # 其他。。。
 男女男
