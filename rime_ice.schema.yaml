@@ -384,5 +384,3 @@ speller:
 
     - derive/([bdjlmnpqrstxyz])i$/i$1/ # mingiz → mingzi
     - derive/^xi(.*)$/ix$1/  # huaixang → huaxiang
-    - derive/suanfa/suafna/  # suafna → suanfa
-    - derive/xiazai/xiazia/  # xiazia → xiazai

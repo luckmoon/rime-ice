@@ -240,3 +240,7 @@ bilibili	bili
 bilibili	bilibili
 jupyter	jupyter
 Transformer	transformer
+
+
+下载	xiazia
+算法	suafna
