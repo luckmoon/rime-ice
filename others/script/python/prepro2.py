@@ -25,10 +25,10 @@ def main():
                 content = line["content"]
                 tokens = jieba.lcut(content)
                 counter.update(tokens)
-                if cnt > 100:
+                if cnt > 10000:
                     break
     print(len(counter))
-    print(counter.most_common(10))
+    print(counter.most_common(50))
 
 
 if __name__ == '__main__':
