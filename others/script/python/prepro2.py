@@ -27,7 +27,8 @@ def main():
                 counter.update(tokens)
                 if cnt > 100:
                     break
-    print(counter.most_common())
+    print(len(counter))
+    print(counter.most_common(10))
 
 
 if __name__ == '__main__':
