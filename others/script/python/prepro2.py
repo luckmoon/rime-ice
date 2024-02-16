@@ -6,10 +6,9 @@ import os
 from collections import defaultdict, Counter
 
 import jieba
+from common.io_utils import get_base_dir
 
-USERNAME = getpass.getuser()
-
-BASE_CORPUS_DIR = f"/Users/{USERNAME}/Downloads/rime_corpus"
+BASE_CORPUS_DIR = get_base_dir()
 
 
 def main():
