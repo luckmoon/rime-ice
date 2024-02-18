@@ -13,6 +13,7 @@ class Platform(Enum):
 
 def get_platform():
     import platform
+
     sys_platform = platform.platform().lower()
     if "windows" in sys_platform:
         return Platform.windows
@@ -34,3 +35,7 @@ def get_base_dir():
         return f"/home/{username}/Downloads/rime_corpus"
     else:
         raise ValueError()
+
+
+def get_tokenized_dir():
+    return get_base_dir().rstrip("/") + "_tokenized"
