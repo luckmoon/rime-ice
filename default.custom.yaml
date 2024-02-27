@@ -8,5 +8,6 @@ patch:
 
   ascii_composer:
     switch_key:
-      Caps_Lock: noop
+      # Caps_Lock: noop
+      Caps_Lock: clear
       Shift_L: noop
