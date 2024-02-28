@@ -15,7 +15,7 @@
 # 搜狗转 Rime 词库：https://github.com/lewangdev/scel2txt
 ---
 name: sogou
-version: "2024-02-27"
+version: "2024-02-28"
 sort: by_weight
 ...
 # *_* 过滤列表，每次更新时不再写入：
@@ -1394,7 +1394,9 @@ sort: by_weight
 报道完	bao dao wan	1
 报的哪	bao de na	1
 报的哪里	bao de na li	1
+报的是	bao de shi	1
 宝德学院	bao de xue yuan	2
+报低了	bao di le	1
 宝坻人	bao di ren	1
 包点饺子	bao dian jiao zi	1
 葆蝶家	bao die jia	1
@@ -3439,6 +3441,7 @@ sort: by_weight
 才开庭	cai kai ting	1
 才看得见	cai kan de jian	1
 菜靠靠	cai kao kao	1
+材科	cai ke	2
 才可能	cai ke neng	1
 猜口令	cai kou ling	1
 菜库	cai ku	1
@@ -4566,6 +4569,7 @@ sort: by_weight
 吃清淡点	chi qing dan dian	1
 痴情冢	chi qing zhong	1
 持球人	chi qiu ren	1
+迟日	chi ri	2
 吃散伙饭	chi san huo fan	1
 持色	chi se	4
 吃啥瓜	chi sha gua	1
@@ -5575,6 +5579,7 @@ sort: by_weight
 大单元	da dan yuan	1
 打弹珠	da dan zhu	1
 大珰	da dang	1
+大导	da dao	23
 大道不孤众行致远	da dao bu gu zhong xing zhi yuan	1
 达到顶峰	da dao ding feng	1
 打到脸上	da dao lian shang	1
@@ -5816,6 +5821,7 @@ sort: by_weight
 大漏斗	da lou dou	1
 大漏勺	da lou shao	1
 大漏特漏	da lou te lou	1
+大路通罗马	da lu tong luo ma	1
 达鲁伊	da lu yi	1
 大萝莉	da luo li	3
 大罗塘	da luo tang	1
@@ -6505,6 +6511,7 @@ sort: by_weight
 道法书	dao fa shu	1
 倒反天罡	dao fan tian gang	1
 到访过	dao fang guo	1
+倒放视频	dao fang shi pin	1
 到阜阳	dao fu yang	1
 刀杆节	dao gan jie	1
 到高铁站	dao gao tie zhan	1
@@ -9124,6 +9131,7 @@ sort: by_weight
 肥虾	fei xia	2
 肺下界	fei xia jie	1
 非限	fei xian	1
+飞线充电	fei xian chong dian	1
 非限时	fei xian shi	1
 妃咲	fei xiao	1
 菲谢尔	fei xie er	1
@@ -12864,6 +12872,7 @@ sort: by_weight
 核冬天	he dong tian	2
 合锻智能	he duan zhi neng	1
 贺顿	he dun	35
+荷尔健康	he er jian kang	1
 赫尔松	he er song	719
 赫尔特	he er te	1
 赫尔辛堡	he er xin bao	78
@@ -13012,6 +13021,7 @@ sort: by_weight
 合生创展	he sheng chuang zhan	1
 和声岛	he sheng dao	1
 合盛硅业	he sheng gui ye	1
+和声曲式	he sheng qu shi	1
 禾盛新材	he sheng xin cai	1
 何诗蓓	he shi bei	23
 何时休	he shi xiu	9
@@ -13158,6 +13168,7 @@ sort: by_weight
 黑链	hei lian	3
 黑料网	hei liao wang	1
 黑领结	hei ling jie	1
+黑龙刺	hei long ci	1
 黑龙江八一	hei long jiang ba yi	1
 黑龙江工程	hei long jiang gong cheng	1
 黑龙江工业	hei long jiang gong ye	1
@@ -14829,6 +14840,7 @@ sort: by_weight
 基夫	ji fu	625
 基辅罗斯	ji fu luo si	3
 基干民兵	ji gan min bing	17
+寄咯	ji ge	1
 几个箱子	ji ge xiang zi	1
 积功德	ji gong de	1
 记公式	ji gong shi	1
@@ -15056,6 +15068,7 @@ sort: by_weight
 激情绿茵	ji qing lv yin	1
 吉庆有余	ji qing you yu	1
 几球	ji qiu	222
+鸡球	ji qiu	9
 汲取力量	ji qu li liang	1
 击拳	ji quan	10
 姬圈	ji quan	1
@@ -17016,6 +17029,7 @@ sort: by_weight
 敬祖宗	jing zu zong	1
 就爱这一杯	jiu ai zhe yi bei	1
 九八年	jiu ba nian	34
+酒吧舞	jiu ba wu	1
 九拜	jiu bai	8
 九百户	jiu bai hu	1
 九百九十九	jiu bai jiu shi jiu	24
@@ -17137,6 +17151,7 @@ sort: by_weight
 九曲街道	jiu qu jie dao	1
 旧赛季	jiu sai ji	1
 鸠山由纪夫	jiu shan you ji fu	116
+就上岸	jiu shang an	1
 救上来	jiu shang lai	21
 救上来了	jiu shang lai le	1
 就烧了	jiu shao le	1
@@ -17159,6 +17174,7 @@ sort: by_weight
 九水峡	jiu shui xia	1
 九天半	jiu tian ban	1
 九调	jiu tiao	1
+就调	jiu tiao	1
 九条裟罗	jiu tiao sha luo	1
 九万九	jiu wan jiu	4
 九尾加油	jiu wei jia you	1
@@ -17177,6 +17193,7 @@ sort: by_weight
 救一个	jiu yi ge	1
 旧衣回收	jiu yi hui shou	1
 就一科	jiu yi ke	1
+就有学上	jiu you xue shang	1
 九幽争霸	jiu you zheng ba	1
 九元航空	jiu yuan hang kong	1
 救援了	jiu yuan le	1
@@ -17944,6 +17961,7 @@ sort: by_weight
 烤柏灵火	kao bai ling huo	1
 考北大	kao bei da	1
 考本校	kao ben xiao	1
+考编的	kao bian de	1
 烤冰块	kao bing kuai	1
 烤菠萝	kao bo luo	1
 考博士	kao bo shi	8
@@ -18156,6 +18174,7 @@ sort: by_weight
 可可果	ke ke guo	1
 可可莉克	ke ke li ke	1
 可可利亚	ke ke li ya	1
+课课贴	ke ke tie	1
 可可托海的牧羊人	ke ke tuo hai de mu yang ren	1
 可控核聚变	ke kong he ju bian	4
 刻苦学习	ke ku xue xi	1
@@ -23485,6 +23504,7 @@ sort: by_weight
 难的话	nan de hua	1
 难得下雪	nan de xia xue	1
 南顶	nan ding	17
+男顶流	nan ding liu	1
 难都难	nan dou nan	1
 难渡	nan du	4
 难度很大	nan du hen da	224
@@ -24144,6 +24164,7 @@ sort: by_weight
 农业发展	nong ye fa zhan	1
 农业管理	nong ye guan li	1
 农业科技	nong ye ke ji	4
+农艺与种业	nong yi yu zhong ye	1
 努恩	nu en	37
 努尔比耶	nu er bi ye	1
 怒而飞	nu er fei	1
@@ -24505,6 +24526,7 @@ sort: by_weight
 判准	pan zhun	40
 庞德公	pang de gong	13
 胖姑娘	pang gu niang	95
+胖乖	pang guai	1
 胖红	pang hong	1
 胖皇	pang huang	1
 庞俊旭	pang jun xu	1
@@ -24743,6 +24765,7 @@ sort: by_weight
 偏难	pian nan	9
 骗骗花	pian pian hua	1
 骗票	pian piao	1
+骈山	pian shan	1
 骗水	pian shui	1
 片头片尾	pian tou pian wei	1
 偏文	pian wen	9
@@ -31090,6 +31113,7 @@ sort: by_weight
 踏潮	ta chao	2
 他朝若是	ta chao ruo shi	1
 她的城	ta de cheng	1
+她的课	ta de ke	1
 塔蒂亚娜	ta di ya na	1
 塔店	ta dian	1
 他都没给我	ta dou mei gei wo	1
@@ -31101,6 +31125,7 @@ sort: by_weight
 塔河湾	ta he wan	1
 塔黄	ta huang	2
 他回老家	ta hui lao jia	1
+她考了	ta kao le	1
 塔克林	ta ke lin	1
 塔科马	ta ke ma	146
 踏空了	ta kong le	1
@@ -31930,6 +31955,7 @@ sort: by_weight
 天廻龙	tian hui long	1
 天彗龙	tian hui long	1
 田惠宇	tian hui yu	7
+天祸	tian huo	4
 天级	tian ji	10
 天玑版	tian ji ban	1
 天际股份	tian ji gu fen	1
@@ -32135,6 +32161,7 @@ sort: by_weight
 田园堡	tian yuan bao	1
 天源发债	tian yuan fa zhai	1
 田园女	tian yuan nv	1
+田园杂兴	tian yuan za xing	1
 天玥中心	tian yue zhong xin	1
 天云草实	tian yun cao shi	1
 甜崽	tian zai	1
@@ -33568,6 +33595,7 @@ sort: by_weight
 违规减持	wei gui jian chi	1
 维果茨基	wei guo ci ji	2
 为国护盘	wei guo hu pan	1
+为国攀登	wei guo pan deng	1
 未过审	wei guo shen	1
 卫国戍边	wei guo shu bian	1
 危害公共安全	wei hai gong gong an quan	1
@@ -34019,6 +34047,7 @@ sort: by_weight
 我打疫苗	wo da yi miao	1
 我大作文	wo da zuo wen	1
 我担	wo dan	2
+我单科	wo dan ke	1
 卧倒了	wo dao le	1
 我到食堂了	wo dao shi tang le	1
 我到学校	wo dao xue xiao	1
@@ -37743,6 +37772,7 @@ sort: by_weight
 选课系统	xuan ke xi tong	1
 选栏	xuan lan	1
 选蓝	xuan lan	1
+选老师	xuan lao shi	1
 选了几个	xuan le ji ge	1
 选理科	xuan li ke	1
 选历史	xuan li shi	1
@@ -37785,6 +37815,7 @@ sort: by_weight
 悬油	xuan you	1
 宣云	xuan yun	1
 选择性失明	xuan ze xing shi ming	56
+悬着的心死了	xuan zhe de xin si le	1
 选志愿	xuan zhi yuan	1
 宣州消费券	xuan zhou xiao fei quan	1
 学爸	xue ba	1
@@ -37863,6 +37894,7 @@ sort: by_weight
 学驾照	xue jia zhao	1
 雪夹子	xue jia zi	1
 学建筑	xue jian zhu	1
+学教资	xue jiao zi	1
 雪金	xue jin	1
 学金融	xue jin rong	1
 雪景房	xue jing fang	1
@@ -40649,6 +40681,7 @@ sort: by_weight
 有所爱	you suo ai	1
 有所帮助	you suo bang zhu	1
 有所表示	you suo biao shi	1
+有所失	you suo shi	9
 又塌了	you ta le	1
 忧太	you tai	1
 有台风	you tai feng	1
@@ -41412,6 +41445,7 @@ sort: by_weight
 粤电力	yue dian li	1
 约定时间	yue ding shi jian	1
 阅读计划	yue du ji hua	1
+阅读书	yue du shu	2
 月度小队	yue du xiao dui	1
 约尔	yue er	260
 月儿明	yue er ming	1
@@ -43868,6 +43902,7 @@ sort: by_weight
 周亚宁	zhou ya ning	2
 周燕妮	zhou yan ni	1
 周彦羲	zhou yan xi	1
+周洋鑫	zhou yang xin	1
 昼夜颠倒	zhou ye dian dao	1
 周页彤	zhou ye tong	1
 周夷	zhou yi	1
@@ -44525,6 +44560,7 @@ sort: by_weight
 资源战	zi yuan zhan	1
 紫云庭	zi yun ting	1
 自在人心	zi zai ren xin	1
+自粘书皮	zi zhan shu pi	1
 自招班	zi zhao ban	1
 紫之创	zi zhi chuang	1
 子洲	zi zhou	37
