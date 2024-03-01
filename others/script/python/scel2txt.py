@@ -262,9 +262,14 @@ sort: by_weight
         print("-" * 80)
 
     print("合并后 %s 个词" % (len(dict_file_content) - 1))
-    with open("../../../cn_dicts/sogou.dict.yaml", "w") as dictfout:
+    file_name = args.file_name
+    with open(f"../../../cn_dicts/{file_name}.dict.yaml", "w") as dictfout:
         dictfout.write("\n".join(dict_file_content))
 
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description='scel to txt')
+    parser.add_argument('--file_name', type=str, default="sogou")
+    args = parser.parse_args()
     main()
