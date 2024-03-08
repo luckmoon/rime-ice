@@ -1,0 +1,15 @@
+[news2016]
+tokenizer = "hanlp"
+parser = "json"
+key = "content"
+batch_size = 1
+pattern = "new2016zh/news2016zh_*.json"
+dump_file = "new2016zh.txt"
+
+[wiki_zh]
+tokenizer = "hanlp"
+parser = "json"
+key = "text"
+batch_size = 1
+pattern = "wiki_zh/AA/wiki_*"
+dump_file = "wiki_zh.txt"

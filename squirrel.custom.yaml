@@ -214,6 +214,7 @@ patch:
     ForbiddenCity:
       name: "雪中故宫"
       author: "Yiming <yiming.ma.cv@outlook.com>"
+      # font_face: "TH-Tshyn-P0"          # 字体及大小
       font_point: 18
       label_font_point: 13
       comment_font_point: 16

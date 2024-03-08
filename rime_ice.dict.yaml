@@ -20,6 +20,7 @@ import_tables:
   - ext_dicts/sogou_sijixingzheng # 搜狗词库-四级行政
   - ext_dicts/baidu_shici         # 百度词库-诗词
   - ext_dicts/baidu_personal      # 百度词库-个人词库
+  - ext_dicts/sogou_beijing       # 搜狗词库-北京信息
   # - cn_dicts/mydict
 ...
 
