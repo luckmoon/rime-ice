@@ -14,7 +14,7 @@
 # 转化应当大写的单词
 ---
 name: en
-version: "2024-02-23"
+version: "2024-04-19"
 sort: by_weight
 ...
 # +_+
@@ -48,6 +48,8 @@ abigail	abigail
 abilities	abilities
 ability	ability
 # abit	abit
+ablate	ablate
+ablation	ablation
 able	able
 # abn	abn
 abnormal	abnormal
@@ -4926,11 +4928,23 @@ decorating	decorating
 decoration	decoration
 decorations	decorations
 decorative	decorative
+decouple	decouple
+decoupled	decoupled
+decoupler	decoupler
+decouplers	decouplers
+decouples	decouples
+decoupling	decoupling
 decrease	decrease
 decreased	decreased
 decreases	decreases
 decreasing	decreasing
 decree	decree
+decried	decried
+decrier	decrier
+decriers	decriers
+decries	decries
+decry	decry
+decrying	decrying
 dedicate	dedicate
 dedicated	dedicated
 dedication	dedication
@@ -5061,6 +5075,12 @@ demonstrating	demonstrating
 demonstration	demonstration
 demonstrations	demonstrations
 demos	demos
+demote	demote
+demoted	demoted
+demotes	demotes
+demoting	demoting
+demotion	demotion
+demotions	demotions
 # dems	dems
 demux	demux
 den	den
@@ -5728,6 +5748,10 @@ dove	dove
 dover	dover
 # dow	dow
 down	down
+downgrade	downgrade
+downgraded	downgraded
+downgrades	downgrades
+downgrading	downgrading
 downhill	downhill
 downing	downing
 download	download
@@ -6596,6 +6620,8 @@ evangelical	evangelical
 Evans	Evans
 Evansville	Evansville
 evaporate	evaporate
+evaporated	evaporated
+evaporation	evaporation
 eve	eve
 Evelyn	Evelyn
 even	even
@@ -6680,6 +6706,7 @@ excitement	excitement
 exciting	exciting
 # excl	excl
 exclaim	exclaim
+exclaimed	exclaimed
 exclamation	exclamation
 exclude	exclude
 excluded	excluded
@@ -6697,10 +6724,12 @@ exec	exec
 executable	executable
 execute	execute
 executed	executed
+executes	executes
 executing	executing
 execution	execution
 executive	executive
 executives	executives
+executor	executor
 exemplary	exemplary
 exemplify	exemplify
 exempt	exempt
@@ -7067,6 +7096,7 @@ feelings	feelings
 feels	feels
 fees	fees
 feet	feet
+feign	feign
 Felix	Felix
 fell	fell
 fellow	fellow
@@ -7890,7 +7920,6 @@ GCC	GCC
 # GCSE	GCSE
 # gd	gd
 # GDB	GDB
-GDP	GDP
 # ge	ge
 gear	gear
 geared	geared
@@ -7926,6 +7955,7 @@ generates	generates
 generating	generating
 generation	generation
 generations	generations
+generative	generative
 generator	generator
 generators	generators
 generic	generic
@@ -8769,6 +8799,11 @@ hey	hey
 # hhs	hhs
 hi	hi
 Hi-Fi	HiFi
+hibernate	hibernate
+hibernation	hibernation
+hibernations	hibernations
+hibernator	hibernator
+hibernators	hibernators
 hickory	hickory
 hicks	hicks
 hid	hid
@@ -9156,6 +9191,7 @@ ICANN	ICANN
 # icc	icc
 ice	ice
 ice cream	icecream
+iceberg	iceberg
 Iceland	Iceland
 Icelandic	Icelandic
 # ich	ich
@@ -9259,7 +9295,6 @@ imaging	imaging
 IMAP	IMAP
 # imc	imc
 IMDb	IMDb
-# imf	imf
 img	img
 imitate	imitate
 imitation	imitation
@@ -9268,6 +9303,7 @@ immediately	immediately
 immense	immense
 immerse	immerse
 immersion	immersion
+immersive	immersive
 immigrant	immigrant
 immigrants	immigrants
 immigrate	immigrate
@@ -12052,6 +12088,7 @@ mixtures	mixtures
 # mnt	mnt
 # mo	mo
 moan	moan
+moaning	moaning
 mob	mob
 Mobil	Mobil
 mobile	mobile
@@ -13318,6 +13355,8 @@ overcoming	overcoming
 overdose	overdose
 overdrive	overdrive
 overestimate	overestimate
+overfit	overfit
+overfitting	overfitting
 overflow	overflow
 overhang	overhang
 overhaul	overhaul
@@ -16008,6 +16047,7 @@ roam	roam
 roaming	roaming
 Roanoke	Roanoke
 roar	roar
+roaring	roaring
 roast	roast
 roasted	roasted
 rob	rob
@@ -17674,6 +17714,9 @@ sprout	sprout
 spruce	spruce
 spun	spun
 spur	spur
+spurious	spurious
+spuriously	spuriously
+spuriousness	spuriousness
 spurs	spurs
 spy	spy
 spying	spying
@@ -19103,6 +19146,7 @@ tops	tops
 tor	tor
 torah	torah
 torch	torch
+torches	torches
 tori	tori
 Torino	Torino
 torment	torment
