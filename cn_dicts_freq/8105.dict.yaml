@@ -34,7 +34,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2024-03-11"
+version: "2024-04-19"
 sort: by_weight
 ...
 ### 按需启用
@@ -751,8 +751,8 @@ sort: by_weight
 鲳	chang	240
 鲿	chang	994
 𬬮	chang	1
-朝	chao	21256
 超	chao	70144
+朝	chao	21256
 潮	chao	9368
 吵	chao	16054
 嘲	chao	210
@@ -2573,8 +2573,8 @@ sort: by_weight
 烠	hui	1
 𬤝	hui	1
 𬭬	hui	1
-婚	hun	11567
 混	hun	33803
+婚	hun	11567
 魂	hun	5576
 昏	hun	1523
 浑	hun	1019
@@ -2632,6 +2632,8 @@ sort: by_weight
 激	ji	1342
 继	ji	11867
 基	ji	23824
+寄	ji	20500
+忌	ji	2674
 己	ji	6202
 际	ji	833
 纪	ji	4941
@@ -2642,12 +2644,10 @@ sort: by_weight
 积	ji	3277
 寂	ji	388
 疾	ji	1289
-忌	ji	2674
 姬	ji	4168
 绩	ji	717
 祭	ji	6921
 肌	ji	6120
-寄	ji	20500
 辑	ji	1889
 籍	ji	9206
 圾	ji	30
@@ -3123,13 +3123,13 @@ sort: by_weight
 桕	jiu	26
 氿	jiu	34
 㠇	jiu	1
-句	ju	109123
-居	ju	12222
-举	ju	13595
-局	ju	27347
 巨	ju	11599
+举	ju	13595
+居	ju	12222
+局	ju	27347
 具	ju	19270
 据	ju	36693
+句	ju	109123
 聚	ju	7037
 剧	ju	27495
 距	ju	10984
@@ -4729,14 +4729,14 @@ sort: by_weight
 喷	pen	44744
 盆	pen	7203
 湓	pen	60
-朋	peng	1117
 碰	peng	16228
-彭	peng	7351
+朋	peng	1117
 鹏	peng	1535
 捧	peng	9305
 砰	peng	333
 蓬	peng	2088
 篷	peng	174
+彭	peng	7351
 棚	peng	1211
 膨	peng	184
 澎	peng	420
@@ -5019,9 +5019,9 @@ sort: by_weight
 𬨂	qi	1
 卡	qia	81206
 恰	qia	4240
-拤	qia	1
 掐	qia	2900
 洽	qia	243
+拤	qia	1
 葜	qia	1
 袷	qia	8
 髂	qia	164
@@ -5448,11 +5448,11 @@ sort: by_weight
 爇	ruo	1
 蒻	ruo	96
 鄀	ruo	63
-萨	sa	17116
 撒	sa	23150
 洒	sa	2819
 飒	sa	114
 仨	sa	2703
+萨	sa	17116
 卅	sa	914
 靸	sa	6
 挲	sa	8
@@ -5593,7 +5593,6 @@ sort: by_weight
 鞘	shao	756
 柖	shao	1
 玿	shao	8
-社	she	17220
 射	she	23828
 设	she	19909
 舍	she	14380
@@ -5601,6 +5600,7 @@ sort: by_weight
 舌	she	2054
 涉	she	1166
 摄	she	3695
+社	she	17220
 奢	she	372
 慑	she	145
 赦	she	411
@@ -6096,13 +6096,13 @@ sort: by_weight
 澹	tan	464
 榃	tan	17
 磹	tan	9
-堂	tang	17714
-唐	tang	18653
 躺	tang	17030
 汤	tang	14557
-趟	tang	6437
 糖	tang	12298
+趟	tang	6437
 烫	tang	5872
+堂	tang	17714
+唐	tang	18653
 膛	tang	710
 倘	tang	248
 淌	tang	407
@@ -6126,9 +6126,9 @@ sort: by_weight
 铴	tang	1
 䣘	tang	1
 鄌	tang	5
+套	tao	34616
 逃	tao	7708
 讨	tao	3745
-套	tao	34616
 桃	tao	4266
 涛	tao	1491
 掏	tao	4694
@@ -6357,9 +6357,9 @@ sort: by_weight
 忳	tun	25
 焞	tun	41
 褪	tun	476
+拖	tuo	18884
 脱	tuo	10621
 托	tuo	18931
-拖	tuo	18884
 妥	tuo	2905
 拓	tuo	1007
 陀	tuo	2729
@@ -8053,8 +8053,8 @@ sort: by_weight
 瘵	zhai	7
 祭	zhai	6921
 豸	zhai	42
-战	zhan	21180
 站	zhan	211915
+战	zhan	21180
 展	zhan	7146
 占	zhan	63048
 斩	zhan	4549
