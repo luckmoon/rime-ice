@@ -75,6 +75,7 @@ bilibili	bili
 bilibili	bilibili
 jupyter	jupyter
 Transformer	transformer
+HuggingFace	hug
 
 
 下载	xiazia
